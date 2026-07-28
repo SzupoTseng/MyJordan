@@ -20,8 +20,15 @@ Copyright (c) 2026 《慢車到站 · The Slow Train Arrives》作者 / the auth
   • 將本作品或其重要片段重新包裝為產品或服務對外發行。
 
 聲明：
-  • 本作品中 OpenClaw、Hermes Agent、ClawHub 等框架名稱為敘事示意，
-    不代表任何真實產品之官方立場；書中效益數字為說明性上界，非保證值。
+  • 【非醫療、非法律建議】本作品不是醫療、心理、法律或教育診斷之
+    專業意見，不得用以取代醫師、治療師、行為分析師、特教教師或
+    律師之判斷。書中任何與用藥、療程、鑑定或法律程序有關的敘述，
+    一律以主治醫師之醫囑與當年度有效之法令為準。
+  • 【個案已去識別化】主線章節中的孩子以化名「J」出現；可識別之
+    姓名、校名、院所名與時程不在本倉庫內。附錄D 為空白模板，
+    非任何真實個案之紀錄。
+  • 【依據等級】書中方法之證據強度不一，已於附錄C 與附錄G 逐項
+    標註；階段順序、指標設計與教材編排為本書之編排，非實證療程。
   • 本作品按「現狀」提供，不負任何明示或默示之擔保。作者不對因使用
     本作品所生之任何損害負責。
 
@@ -48,10 +55,21 @@ The following require the authors' prior written permission:
     service for public distribution.
 
 Notice:
-  • Framework names such as OpenClaw, Hermes Agent and ClawHub are
-    narrative symbols and represent no official position of any real
-    product; benefit figures are illustrative upper bounds, not
-    guarantees.
+  • NOT MEDICAL OR LEGAL ADVICE. The Work is not a professional
+    medical, psychological, legal or educational opinion and must not
+    replace the judgement of a physician, therapist, behaviour analyst,
+    special-education teacher or lawyer. Anything concerning
+    medication, treatment, assessment or legal procedure is subject to
+    the treating physician's orders and to the law in force in the
+    relevant year.
+  • THE CASE IS DE-IDENTIFIED. In the main chapters the child appears
+    under the alias "J". Identifiable names of people, schools,
+    hospitals and dates are not contained in this repository.
+    Appendix D is a blank template, not a record of any real case.
+  • EVIDENCE LEVELS VARY. The strength of evidence behind each method
+    is labelled per item in Appendix C and Appendix G. The stage
+    sequence, metric design and material numbering are this book's
+    editorial arrangement, not a validated protocol.
   • The Work is provided "AS IS", without warranty of any kind. The
     authors are not liable for any damages arising from its use.
 

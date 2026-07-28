@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#9a3b2f"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">行為升級的六個階段：越早介入，越省力</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<path d="M70 300 H930" stroke="#c9c3b4" stroke-width="2"/>
+<path d="M70 300 L210 292 L350 240 L500 132 L650 240 L790 288 L930 300"
+      fill="none" stroke="#9a3b2f" stroke-width="4"/>
+<g fill="#9a3b2f">
+<circle cx="70" cy="300" r="7"/><circle cx="210" cy="292" r="7"/><circle cx="350" cy="240" r="7"/>
+<circle cx="500" cy="132" r="9"/><circle cx="650" cy="240" r="7"/><circle cx="790" cy="288" r="7"/>
+<circle cx="930" cy="300" r="7"/>
+</g>
+<g text-anchor="middle" font-size="15" font-weight="700">
+<text x="90" y="330" fill="#2f8a5b">① 平靜</text><text x="210" y="330" fill="#9a6a1a">② 觸發</text>
+<text x="350" y="222" fill="#9a6a1a">③ 激動</text><text x="500" y="112" fill="#9a3b2f">④ 高峰</text>
+<text x="650" y="222" fill="#2f5d7a">⑤ 降溫</text><text x="800" y="322" fill="#2f8a5b">⑥ 恢復</text>
+</g>
+<rect x="286" y="180" width="128" height="34" rx="8" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<text x="350" y="203" text-anchor="middle" font-size="14" font-weight="700" fill="#9a6a1a">黃金介入期</text>
+
+<g filter="url(#陰影)">
+<rect x="60" y="352" width="430" height="128" rx="12" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+<rect x="510" y="352" width="430" height="128" rx="12" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2.5"/>
+</g>
+<text x="82" y="382" font-size="16" font-weight="700" fill="#2f8a5b">第 ③ 階段該做（去升級）</text>
+<text x="82" y="410" font-size="13" fill="#1d2230">減少語言（一句 ≤ 7 字，說完停 5 秒）</text>
+<text x="82" y="432" font-size="13" fill="#1d2230">他越大聲，你越小聲 · 往後退半步</text>
+<text x="82" y="454" font-size="13" fill="#1d2230">給兩個選擇 · 提供出口 · 暫停所有要求</text>
+<text x="82" y="474" font-size="12.5" fill="#5a6378">幾乎沒有任何任務，值得換一次爆發</text>
+
+<text x="532" y="382" font-size="16" font-weight="700" fill="#9a3b2f">第 ④ 階段只做安全</text>
+<text x="532" y="410" font-size="13" fill="#1d2230">清空環境 · 保持距離 · 不說話</text>
+<text x="532" y="432" font-size="13" fill="#9a3b2f">✗ 說理　✗ 處罰　✗ 抓住他</text>
+<text x="532" y="454" font-size="13" fill="#1d2230">高峰期前額葉離線，教學是不可能的</text>
+<text x="532" y="474" font-size="12.5" fill="#5a6378">唯一目標：讓這五分鐘安全地過去</text>
+
+<rect x="60" y="500" width="430" height="106" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="82" y="528" font-size="15" font-weight="700" fill="#2f5d7a">恢復之後才複盤（不要當場算總帳）</text>
+<text x="82" y="554" font-size="13" fill="#1d2230">對他：兩句話——「剛剛你很生氣。」</text>
+<text x="82" y="576" font-size="13" fill="#1d2230">「下次可以先去房間，好不好？」</text>
+<text x="82" y="598" font-size="12.5" fill="#5a6378">對大人：寫一份 ABC，C 欄要誠實</text>
+
+<rect x="510" y="500" width="430" height="106" rx="12" fill="#14182a"/>
+<text x="532" y="528" font-size="15" font-weight="700" fill="#f4b860">無法確定是不是癲癇發作時</text>
+<text x="532" y="554" font-size="13" fill="#e7ecf7">一律按癲癇處理：側躺 · 移開硬物 ·</text>
+<text x="532" y="576" font-size="13" fill="#e7ecf7">不塞東西進嘴 · 不壓制 · <tspan fill="#f4b860">看時間</tspan></text>
+<text x="532" y="598" font-size="13" fill="#f4b860">超過 5 分鐘 → 叫救護車</text>
+
+<text x="950" y="628" text-anchor="end" font-size="11" fill="#5a6378">慢車到站 · The Slow Train Arrives</text></g></svg>

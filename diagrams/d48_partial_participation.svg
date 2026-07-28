@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f8a5b"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">另一條路徑：把「獨立程度」換成「參與程度」</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<rect x="60" y="100" width="880" height="66" rx="12" fill="#14182a"/>
+<text x="500" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#f4b860">部分參與原則：他做不到全部，不代表他不能參與任何一部分</text>
+<text x="500" y="156" text-anchor="middle" font-size="13" fill="#e7ecf7">把活動拆開，找出他做得到的那一格，讓他做那一格。</text>
+
+<text x="60" y="204" font-size="17" font-weight="700">泡一杯飲料（第 36 章的 9 步）</text>
+<g font-size="13" text-anchor="middle">
+<g filter="url(#陰影)">
+<rect x="60" y="220" width="92" height="52" rx="8" fill="#eef5f7" stroke="#bcd6df"/>
+<rect x="158" y="220" width="92" height="52" rx="8" fill="#eef5f7" stroke="#bcd6df"/>
+<rect x="256" y="220" width="92" height="52" rx="8" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2.5"/>
+<rect x="354" y="220" width="92" height="52" rx="8" fill="#eef5f7" stroke="#bcd6df"/>
+<rect x="452" y="220" width="92" height="52" rx="8" fill="#eef5f7" stroke="#bcd6df"/>
+<rect x="550" y="220" width="92" height="52" rx="8" fill="#eef5f7" stroke="#bcd6df"/>
+<rect x="648" y="220" width="92" height="52" rx="8" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2.5"/>
+<rect x="746" y="220" width="92" height="52" rx="8" fill="#eef5f7" stroke="#bcd6df"/>
+<rect x="844" y="220" width="96" height="52" rx="8" fill="#eef5f7" stroke="#bcd6df"/>
+</g>
+<text x="106" y="251" fill="#5a6378">1 拿杯</text><text x="204" y="251" fill="#5a6378">2 拿包</text>
+<text x="302" y="251" font-weight="700" fill="#2f8a5b">3 放進去</text><text x="400" y="251" fill="#5a6378">4 拿壺</text>
+<text x="498" y="251" fill="#5a6378">5 倒水</text><text x="596" y="251" fill="#5a6378">6 放回</text>
+<text x="694" y="251" font-weight="700" fill="#2f8a5b">7 攪拌</text><text x="792" y="251" fill="#5a6378">8 等</text>
+<text x="892" y="251" fill="#5a6378">9 收拾</text>
+</g>
+<text x="60" y="294" font-size="13.5" fill="#2f8a5b">綠色那兩格由他做，其餘由大人做——但他在場、他被告知、他有貢獻。</text>
+
+<rect x="60" y="316" width="430" height="150" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="82" y="346" font-size="16" font-weight="700" fill="#2f5d7a">三個指標也要換</text>
+<text x="82" y="376" font-size="13.5" fill="#1d2230">① 主動溝通次數（任何形式）</text>
+<text x="82" y="402" font-size="13.5" fill="#1d2230">② 參與的步驟數（他實際做到幾格）</text>
+<text x="82" y="428" font-size="13.5" fill="#9a3b2f">③ 清醒且平靜的時間比例 ★</text>
+<text x="82" y="454" font-size="12.5" fill="#5a6378">第三項是所有其他事情的分母</text>
+
+<rect x="510" y="316" width="430" height="150" rx="12" fill="#fdf3e3" stroke="#e8c88a"/>
+<text x="532" y="346" font-size="16" font-weight="700" fill="#9a6a1a">生活品質的五個面向</text>
+<g font-size="13.5" fill="#1d2230">
+<text x="532" y="376">① 舒適　② 可預測　③ 選擇</text>
+<text x="532" y="402">④ 關係　⑤ 參與</text>
+</g>
+<text x="532" y="432" font-size="12.5" fill="#9a6a1a">五項都可觀察、可改善，</text>
+<text x="532" y="454" font-size="12.5" fill="#9a6a1a">而且與認知程度無關。</text>
+
+<rect x="60" y="486" width="880" height="122" rx="12" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+<text x="82" y="516" font-size="16" font-weight="700" fill="#2f8a5b">最優先的一件事：先找到一種溝通方式</text>
+<g font-size="13.5" fill="#1d2230">
+<text x="82" y="546">第 0 級 讀懂他現有的訊號（轉頭、閉眼、推開、笑、身體僵硬）→ 做成「他的訊號表」</text>
+<text x="82" y="572">第 1–4 級 實物 → 圖卡 → 溝通板／單鍵按鈕 → 平板 AAC</text>
+</g>
+<text x="82" y="598" font-size="13" fill="#9a3b2f">★ 判準不是認知程度，是「他現在能穩定做出什麼動作」。能穩定用的低科技，勝過用不起來的高科技。</text>
+
+<text x="950" y="628" text-anchor="end" font-size="11" fill="#5a6378">慢車到站 · The Slow Train Arrives</text></g></svg>

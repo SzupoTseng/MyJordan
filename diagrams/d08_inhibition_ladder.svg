@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">抑制控制三階梯：煞車踩在誰手上</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)"><rect x="70" y="360" width="290" height="140" rx="12" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/></g>
+<text x="215" y="394" text-anchor="middle" font-size="18" font-weight="700" fill="#2f5d7a">第一階　外部制止</text>
+<text x="215" y="422" text-anchor="middle" font-size="13.5" fill="#5a6378">煞車在「大人」手上</text>
+<text x="215" y="448" text-anchor="middle" font-size="13.5" fill="#1d2230">手勢制止 ＋ 指向計時器</text>
+<text x="215" y="474" text-anchor="middle" font-size="13" fill="#9a3b2f">升階條件：成功率 ≥ 80%，連續兩週</text>
+
+<g filter="url(#陰影)"><rect x="355" y="240" width="290" height="140" rx="12" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/></g>
+<text x="500" y="274" text-anchor="middle" font-size="18" font-weight="700" fill="#9a6a1a">第二階　視覺提示</text>
+<text x="500" y="302" text-anchor="middle" font-size="13.5" fill="#5a6378">煞車在「環境」手上</text>
+<text x="500" y="328" text-anchor="middle" font-size="13.5" fill="#1d2230">紅色消失 → 自己停下</text>
+<text x="500" y="354" text-anchor="middle" font-size="13" fill="#9a3b2f">升階條件：不需手勢即可停 ≥ 70%</text>
+
+<g filter="url(#陰影)"><rect x="640" y="120" width="290" height="140" rx="12" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/></g>
+<text x="785" y="154" text-anchor="middle" font-size="18" font-weight="700" fill="#2f8a5b">第三階　自我啟動</text>
+<text x="785" y="182" text-anchor="middle" font-size="13.5" fill="#5a6378">煞車在「孩子」手上</text>
+<text x="785" y="208" text-anchor="middle" font-size="13.5" fill="#1d2230">沒有計時器也能收尾</text>
+<text x="785" y="234" text-anchor="middle" font-size="13" fill="#2f8a5b">卡住時主動求助，而不是生氣</text>
+
+<path d="M362 400 L500 385" fill="none" stroke="#2f5d7a" stroke-width="3" marker-end="url(#箭頭)"/>
+<path d="M647 280 L785 265" fill="none" stroke="#2f5d7a" stroke-width="3" marker-end="url(#箭頭)"/>
+
+<rect x="70" y="520" width="410" height="80" rx="12" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2"/>
+<text x="92" y="550" font-size="15" font-weight="700" fill="#9a3b2f">跳階必然失敗</text>
+<text x="92" y="576" font-size="13.5" fill="#1d2230">「你應該自己知道要停」＝ 直接要求第三階。</text>
+
+<rect x="500" y="520" width="430" height="80" rx="12" fill="#14182a"/>
+<text x="522" y="550" font-size="15" font-weight="700" fill="#f4b860">前兩週會變糟，那叫消退爆發</text>
+<text x="522" y="576" font-size="13.5" fill="#e7ecf7">此時妥協一次，孩子學到「加大力度有用」。</text>
+
+<rect x="70" y="120" width="540" height="96" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="92" y="150" font-size="15" font-weight="700" fill="#2f5d7a">為什麼不能用嘴巴煞車</text>
+<text x="92" y="176" font-size="13.5" fill="#1d2230">語言解碼是他最弱的通道；你講得越多，他的認知負荷越重。</text>
+<text x="92" y="200" font-size="13.5" fill="#1d2230">手勢與計時器繞過語言，直接走視覺——那是相對完好的一條。</text>
+
+<text x="950" y="620" text-anchor="end" font-size="11" fill="#5a6378">慢車到站 · The Slow Train Arrives</text></g></svg>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>慢車到站 · The Slow Train Arrives</title>
+<style>
+:root{--ink:#1d2230;--mut:#5a6378;--pa:#fbf8f0;--navy:#14182a;--gold:#f4b860;--accent:#9a3b2f;--accent2:#2f5d7a;--line:#e3e0d6}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",sans-serif;background:var(--pa);color:var(--ink);line-height:1.8}
+header{background:var(--navy);color:#eef1fb;text-align:center;padding:54px 20px 46px}
+header h1{margin:0;font-size:40px;letter-spacing:6px;color:var(--gold)}
+header .en{margin:8px 0 0;font-size:16px;color:#aeb6d4;letter-spacing:3px}
+header .sub{margin:14px auto 0;max-width:640px;font-size:15px;color:#c7cde4}
+.wrap{max-width:960px;margin:0 auto;padding:40px 22px 80px}
+.hero{display:flex;gap:34px;align-items:center;flex-wrap:wrap;justify-content:center;margin-bottom:44px}
+.hero img{width:300px;max-width:80vw;border-radius:12px;box-shadow:0 14px 40px rgba(20,24,42,.28)}
+.thesis{flex:1;min-width:280px;max-width:520px;background:#fdf3e3;border:1px solid #e8c88a;border-radius:14px;padding:22px 26px;box-shadow:0 4px 14px rgba(180,140,60,.12)}
+.thesis .t{font-size:13px;font-weight:700;color:#9a6a1a;letter-spacing:1px;margin-bottom:8px}
+.thesis p{margin:0;font-size:19px;font-weight:700}
+.thesis .em{color:var(--accent)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px 22px;transition:transform .12s,box-shadow .12s}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(20,24,42,.14)}
+.card.soon{opacity:.6;pointer-events:none}
+.card .lang{font-size:20px;font-weight:700;color:var(--accent2)}
+.card .meta{font-size:13px;color:var(--mut);margin-top:8px}
+.card .go{margin-top:14px;font-size:13px;color:var(--accent);font-weight:700}
+footer{text-align:center;color:var(--mut);font-size:12.5px;padding:0 20px 50px}
+@media(prefers-color-scheme:dark){body{background:#0f1220;color:#e7eaf5}.card{background:#171b2c;border-color:#2a3150}.thesis{background:#241d10;border-color:#5a4a24;color:#f0e3c8}}
+</style>
+</head>
+<body>
+<header>
+  <h1>慢車到站</h1>
+  <div class="en">The Slow Train Arrives</div>
+  <p class="sub">把固著變成技能 —— 從神經地基到成人職場的四年培育藍圖。寫給語言遲緩與智能障礙孩子的家長與特教工作者。</p>
+</header>
+<div class="wrap">
+  <div class="hero">
+    <img src="cover.svg" alt="慢車到站封面海報"/>
+    <div class="thesis">
+      <div class="t">全書核心命題</div>
+      <p>不是把火車從他手裡拿走，<br/>而是「<span class="em">讓火車載他去上班</span>」。</p>
+    </div>
+  </div>
+  <div class="cards">
+    <a class="card" href="慢車到站.html">
+      <div class="lang">繁體中文</div>
+      <div class="meta">八篇 49 章 + 50 情境 + 附錄 A–G・側欄目錄・內嵌 SVG</div>
+      <div class="go">開始閱讀 →</div>
+    </a>
+    <div class="card soon">
+      <div class="lang">English</div>
+      <div class="meta">Coming soon</div>
+    </div>
+    <div class="card soon">
+      <div class="lang">简体中文</div>
+      <div class="meta">即将推出</div>
+    </div>
+    <div class="card soon">
+      <div class="lang">日本語</div>
+      <div class="meta">近日公開</div>
+    </div>
+  </div>
+</div>
+<footer>教育與研究用途，不構成醫療建議。以單一個案為主線寫成，已去識別化。</footer>
+</body>
+</html>

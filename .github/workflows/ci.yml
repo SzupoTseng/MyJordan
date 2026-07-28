@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  book:
+    name: 書稿與資產檢查（零依賴）
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 【WHY 這一段不裝任何東西】書稿檢查與資產檢查都是純標準庫。
+      # 讓它們成為第一個 job，是因為它們秒級完成，而且抓到的是最貴的錯：
+      # 產物與書稿不同步、真名漏進主線、談藥卻沒帶免責框。
+      - name: 書稿檢查（圖片引用／簡體字／醫療免責／去識別化／建置同步／HTML id）
+        run: python3 scripts/check_book.py
+
+      - name: 資產檢查（教材編號／站別／指標名／.env 覆蓋／紅旗／列印檔名／selftest）
+        run: python3 scripts/check_assets.py
+
+      - name: 變異測試（把修過的缺陷改回去，驗證測試真的抓得到）
+        run: python3 scripts/mutation_sweep.py
+
+  impl:
+    name: impl 靜態檢查與測試
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: impl
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安裝開發依賴
+        run: |
+          python -m pip install --upgrade pip
+          pip install ".[dev]"
+
+      - name: ruff
+        run: ruff check src tests
+
+      - name: mypy strict
+        run: mypy src
+
+      - name: pytest（覆蓋率門檻 85%）
+        run: pytest --cov=railway_core --cov-report=term-missing --cov-fail-under=85
+
+      # 【WHY 裝了 pytest 還要再跑一次 selftest】
+      # selftest.py 是給「電腦上沒有 pip」的讀者用的路徑。它如果壞掉，
+      # CI 這裡不跑就不會有人發現——而那正好是最需要它能動的那群人。
+      - name: 零依賴自測（讀者路徑）
+        run: python selftest.py

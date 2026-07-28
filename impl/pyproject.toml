@@ -1,0 +1,54 @@
+[project]
+name = "railway-core"
+version = "0.1.0"
+description = "《慢車到站》教材與追蹤工具包 —— 六階段判定、十組教材題庫、列印資產產生器"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+# 【WHY 沒有 dependencies】
+# 本書的主張之一是「不需要買任何東西、不需要裝任何東西」(第 21 章)。
+# 一個家長在深夜想跑一次週報時,不該先撞上 pip install 失敗。
+# 整個套件只用標準庫——多寫的幾十行驗證邏輯,換的是「clone 下來就能跑」。
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-cov>=5.0", "mypy>=1.10", "ruff>=0.4"]
+
+[project.scripts]
+railway = "railway_core.app:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers"
+testpaths = ["tests"]
+# 【WHY】沒有這一行,`make test`、CI、以及直接下 `pytest` 會是三種行為:
+# CI 靠 PYTHONPATH=src,Makefile 靠安裝,而一個沒安裝過的人直接跑 pytest
+# 會拿到 ModuleNotFoundError。把路徑寫進設定,三條路都指向同一份 src。
+pythonpath = ["src"]
+
+[tool.coverage.run]
+source = ["railway_core"]
+omit = ["*/__main__.py"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+disallow_untyped_defs = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = [
+    # CJK 註解密集,行長交給格式化,不強制
+    "E501",
+]

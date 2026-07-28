@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">工作記憶鏈：四個維度，一次只動一個</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)"><rect x="60" y="110" width="210" height="128" rx="12" fill="#eef5f7" stroke="#bcd6df" stroke-width="2"/></g>
+<text x="165" y="143" text-anchor="middle" font-size="17" font-weight="700" fill="#2f5d7a">① 步數</text>
+<text x="165" y="172" text-anchor="middle" font-size="13.5" fill="#1d2230">1 步 → 2 步 → 3 步</text>
+<text x="165" y="200" text-anchor="middle" font-size="13" fill="#5a6378">暫存區容量</text>
+
+<g filter="url(#陰影)"><rect x="290" y="110" width="210" height="128" rx="12" fill="#eef5f7" stroke="#bcd6df" stroke-width="2"/></g>
+<text x="395" y="143" text-anchor="middle" font-size="17" font-weight="700" fill="#2f5d7a">② 空間</text>
+<text x="395" y="172" text-anchor="middle" font-size="13.5" fill="#1d2230">同室 → 跨室 → 跨場所</text>
+<text x="395" y="200" text-anchor="middle" font-size="13" fill="#5a6378">移動會沖刷暫存內容</text>
+
+<g filter="url(#陰影)"><rect x="520" y="110" width="210" height="128" rx="12" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/></g>
+<text x="625" y="143" text-anchor="middle" font-size="17" font-weight="700" fill="#9a6a1a">③ 連接詞</text>
+<text x="625" y="172" text-anchor="middle" font-size="13.5" fill="#1d2230">然後 → 並且 → 順便</text>
+<text x="625" y="200" text-anchor="middle" font-size="13" fill="#9a3b2f">「順便」要求自行規劃</text>
+
+<g filter="url(#陰影)"><rect x="750" y="110" width="190" height="128" rx="12" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2"/></g>
+<text x="845" y="143" text-anchor="middle" font-size="17" font-weight="700" fill="#9a3b2f">④ 語序</text>
+<text x="845" y="172" text-anchor="middle" font-size="13.5" fill="#1d2230">順向 → 逆向</text>
+<text x="845" y="200" text-anchor="middle" font-size="13" fill="#5a6378">「在 A 之前先做 B」</text>
+
+<text x="60" y="292" font-size="17" font-weight="700" fill="#1d2230">十六級階梯（每級通過標準：連續 5 次，至少 4 次無額外提醒完成）</text>
+<rect x="60" y="308" width="880" height="54" rx="10" fill="#eef5f7" stroke="#bcd6df"/>
+<g font-size="13" fill="#1d2230">
+<text x="78" y="330">1 同室1步　2 同室2步　3 三格卡　4 三步無卡　5 跨室1步　6 跨室2步「然後」　7 跨室「並且」　8 跨室3步</text>
+<text x="78" y="352">9 逆向語序　10 跨場所　11 含條件　12 延遲執行　13 延遲2步　14 中斷後回歸　15 自行排序　16 跨日任務</text>
+</g>
+<path d="M60 372 H940" stroke="#f4b860" stroke-width="3" marker-end="url(#箭頭)"/>
+<text x="80" y="392" font-size="12.5" fill="#5a6378">多數十六歲的起點</text>
+<text x="640" y="392" font-size="12.5" fill="#2f8a5b">四年目標：第 10–12 級即足以支撐小作所日常作業</text>
+
+<rect x="60" y="418" width="430" height="176" rx="12" fill="#14182a"/>
+<text x="82" y="450" font-size="16" font-weight="700" fill="#f4b860">提示褪除：獨立率上不去的真正原因</text>
+<g font-size="13.5" fill="#e7ecf7">
+<text x="82" y="480">① 肢體協助　② 示範　③ 完整口頭　④ 部分提示</text>
+<text x="82" y="504">⑤ 手勢　⑥ 僅視覺卡　⑦ 無提示 ← 目標</text>
+</g>
+<text x="82" y="536" font-size="13.5" fill="#f4b860">卡住時先「往下降一階」，不要跳回 ③。</text>
+<text x="82" y="562" font-size="13.5" fill="#e7ecf7">那 5–10 秒的沉默，就是工作記憶真正在運作的時刻。</text>
+
+<rect x="510" y="418" width="430" height="176" rx="12" fill="#eef7f0" stroke="#2f8a5b"/>
+<text x="532" y="450" font-size="16" font-weight="700" fill="#2f8a5b">把記憶外部化，不是作弊</text>
+<text x="532" y="482" font-size="13.5" fill="#1d2230">三格檢核卡就是小作所與庇護工場的</text>
+<text x="532" y="506" font-size="13.5" fill="#1d2230">真實工作模式——它不是輔助輪。</text>
+<text x="532" y="538" font-size="13.5" fill="#1d2230">打勾必須由孩子自己做：那個動作</text>
+<text x="532" y="562" font-size="13.5" fill="#1d2230">本身，就是「完工」的神經標記。</text>
+
+<text x="950" y="622" text-anchor="end" font-size="11" fill="#5a6378">慢車到站 · The Slow Train Arrives</text></g></svg>

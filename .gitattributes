@@ -1,0 +1,17 @@
+# 正規化：倉庫內一律 LF，避免 Windows/WSL 混用造成換行抖動。
+# Normalize: store & check out text as LF (this repo is built under WSL).
+* text=auto eol=lf
+
+# 二進位檔不做換行轉換 / binary assets — never touch line endings.
+*.png binary
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# 【WHY SVG 不列為 binary】封面與流程圖是純文字 SVG，會被 _build.py 讀進來內嵌，
+# 也應該像程式碼一樣可以 diff、可以 review。列成 binary 會讓每次改一個座標
+# 都看不出改了什麼。
+
+# Windows 批次檔必須是 CRLF，否則 cmd.exe 會解析失敗。
+*.bat text eol=crlf

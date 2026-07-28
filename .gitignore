@@ -1,0 +1,36 @@
+# 【注意】建置產物「慢車到站.html」與「慢車到站_全書.md」**要進版控**,不要排除:
+#   ① index.html 的語言卡直接連到 慢車到站.html,不提交就是一條死連結;
+#   ② BUILD_STANDARD.md §1 把它們列為 repo 結構的一部分;
+#   ③ CI 的 scripts/check_book.py 會比對「產物是否與書稿同步」,檔案不在就無從比對。
+# 它們可由 `make build` 重現,但「可重現」不等於「不需要提交」——成品本身就是交付物。
+# PDF 體積大(30MB 級)且非必要交付,才排除。
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.coverage
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# 【隱私】原始素材：docs/ 是這本書的來源資料，含未去識別化的內容與 30MB 的附件。
+# 它不是書的一部分，也不該進版控——去識別化的成果在正文，個案化的部分在附錄D。
+docs/
+
+# 【隱私】去識別化詞表:寫的是真實姓名 / 校名 / 醫院名,給 scripts/check_book.py 當黑名單用。
+# 它的存在意義就是「不要讓這些字進版控」——所以它自己第一個不能進版控。
+.privacy_terms
+
+*.private.md
+
+# 列印資產產物(可由 `make assets` 重現;內含個案化姓名與時程,不進版控)
+impl/out/
+
+# 編輯器 / 作業系統
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

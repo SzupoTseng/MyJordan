@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">十組教材地圖：練的每一件事，都對應一個成人場景</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<rect x="50" y="100" width="300" height="240" rx="14" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/>
+<text x="200" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#2f5d7a">D1　數值與大小</text>
+<text x="72" y="168" font-size="14" font-weight="700">M01　誰比較貴</text>
+<text x="72" y="190" font-size="12.5" fill="#5a6378">兩個數字比大小 → 看懂價目表</text>
+<text x="72" y="222" font-size="14" font-weight="700">M02　身高檢查員</text>
+<text x="72" y="244" font-size="12.5" fill="#5a6378">比小與規則 → 遵守限制</text>
+<text x="72" y="276" font-size="14" font-weight="700">M03　車廂點名</text>
+<text x="72" y="298" font-size="12.5" fill="#5a6378">指物數數與序數 → 清點數量</text>
+<text x="72" y="326" font-size="12.5" fill="#2f5d7a">最容易接到真實代工的一組</text>
+
+<rect x="366" y="100" width="300" height="290" rx="14" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<text x="516" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#9a6a1a">D2　金錢與等價</text>
+<text x="388" y="168" font-size="14" font-weight="700">M04　付錢大作戰</text>
+<text x="388" y="190" font-size="12.5" fill="#5a6378">面額與「夠不夠」 → 拿對錢</text>
+<text x="388" y="222" font-size="14" font-weight="700">M05　火車便當</text>
+<text x="388" y="244" font-size="12.5" fill="#5a6378">等值提取 → 不必每次拿大鈔</text>
+<text x="388" y="276" font-size="14" font-weight="700">M06　逼逼看餘額</text>
+<text x="388" y="298" font-size="12.5" fill="#5a6378">數值遞減 → 電子票證不亂刷</text>
+<text x="388" y="330" font-size="14" font-weight="700">M07　紀念品找零</text>
+<text x="388" y="352" font-size="12.5" fill="#5a6378">動作鏈 → 拿回零錢並收好</text>
+<text x="388" y="378" font-size="12.5" fill="#9a3b2f">M04 → M05 → M06 → M07，順序不要跳</text>
+
+<rect x="682" y="100" width="268" height="240" rx="14" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+<text x="816" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#2f8a5b">D3　時間與序列</text>
+<text x="704" y="168" font-size="14" font-weight="700">M08　時刻表</text>
+<text x="704" y="190" font-size="12.5" fill="#5a6378">數字比對 → 看懂跑馬燈</text>
+<text x="704" y="222" font-size="14" font-weight="700">M09　先…然後…</text>
+<text x="704" y="244" font-size="12.5" fill="#5a6378">先後順序 → 依序完成工作</text>
+<text x="704" y="276" font-size="14" font-weight="700">M10　進站計時器</text>
+<text x="704" y="298" font-size="12.5" fill="#5a6378">等待耐受 → 排隊、候診、等車</text>
+<text x="704" y="326" font-size="12.5" fill="#2f8a5b">不教時鐘指針，只教數字比對</text>
+
+<rect x="50" y="418" width="900" height="76" rx="12" fill="#14182a"/>
+<text x="500" y="450" text-anchor="middle" font-size="17" font-weight="700" fill="#f4b860">五條通用原則</text>
+<text x="500" y="478" text-anchor="middle" font-size="13.5" fill="#e7ecf7">用真的東西　·　每次 ≤ 15 分鐘　·　全程用角色稱號　·　答錯唸固定口訣　·　桌上練四次，社區實作一次</text>
+
+<rect x="50" y="512" width="440" height="80" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="72" y="542" font-size="15" font-weight="700" fill="#2f5d7a">建議導入順序</text>
+<text x="72" y="570" font-size="13.5" fill="#1d2230">M01 → M04 → M06，對應：比較、支付、餘額</text>
+
+<rect x="510" y="512" width="440" height="80" rx="12" fill="#faf0ee" stroke="#9a3b2f"/>
+<text x="532" y="542" font-size="15" font-weight="700" fill="#9a3b2f">全套教具約一至兩千元</text>
+<text x="532" y="570" font-size="13.5" fill="#1d2230">不需要專業教材、不需要訂閱課程、不需要 App。</text>
+
+<text x="950" y="622" text-anchor="end" font-size="11" fill="#5a6378">慢車到站 · The Slow Train Arrives</text></g></svg>

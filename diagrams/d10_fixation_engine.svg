@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><marker id="紅箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#9a3b2f"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">固著功能化：三個動作，與兩種用法的差別</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)"><rect x="60" y="110" width="230" height="150" rx="14" fill="#14182a"/></g>
+<text x="175" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#f4b860">動機引擎</text>
+<text x="175" y="182" text-anchor="middle" font-size="13.5" fill="#e7ecf7">動機極高</text>
+<text x="175" y="208" text-anchor="middle" font-size="13.5" fill="#e7ecf7">抗拒極低</text>
+<text x="175" y="234" text-anchor="middle" font-size="13.5" fill="#e7ecf7">內容穩定，可用四年</text>
+
+<path d="M292 185 L340 185" fill="none" stroke="#2f5d7a" stroke-width="3" marker-end="url(#箭頭)"/>
+
+<g filter="url(#陰影)"><rect x="345" y="110" width="188" height="150" rx="12" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/></g>
+<text x="439" y="146" text-anchor="middle" font-size="17" font-weight="700" fill="#2f5d7a">① 限時</text>
+<text x="439" y="176" text-anchor="middle" font-size="13" fill="#1d2230">3 張聊天券 × 5 分鐘</text>
+<text x="439" y="202" text-anchor="middle" font-size="13" fill="#1d2230">代幣放在看得見的地方</text>
+<text x="439" y="234" text-anchor="middle" font-size="12.5" fill="#5a6378">保護人緣、建立場合概念</text>
+
+<g filter="url(#陰影)"><rect x="548" y="110" width="188" height="150" rx="12" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/></g>
+<text x="642" y="146" text-anchor="middle" font-size="17" font-weight="700" fill="#9a6a1a">② 結構化</text>
+<text x="642" y="176" text-anchor="middle" font-size="13" fill="#1d2230">「你要介紹哪三個？」</text>
+<text x="642" y="202" text-anchor="middle" font-size="13" fill="#1d2230">第一 → 第二 → 收尾</text>
+<text x="642" y="234" text-anchor="middle" font-size="12.5" fill="#5a6378">碎念升級成有結構的敘述</text>
+
+<g filter="url(#陰影)"><rect x="751" y="110" width="189" height="150" rx="12" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/></g>
+<text x="845" y="146" text-anchor="middle" font-size="17" font-weight="700" fill="#2f8a5b">③ 外殼化</text>
+<text x="845" y="176" text-anchor="middle" font-size="13" fill="#1d2230">把要練的能力</text>
+<text x="845" y="202" text-anchor="middle" font-size="13" fill="#1d2230">包進火車主題裡</text>
+<text x="845" y="234" text-anchor="middle" font-size="12.5" fill="#5a6378">降低抗拒、提高練習量</text>
+
+<rect x="60" y="300" width="430" height="200" rx="14" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2.5"/>
+<text x="275" y="334" text-anchor="middle" font-size="18" font-weight="700" fill="#2f8a5b">外殼式（建議：約八成）</text>
+<text x="84" y="368" font-size="14" fill="#1d2230">火車是「任務本身的材料」</text>
+<text x="84" y="398" font-size="13.5" fill="#5a6378">「自強號 400、區間車 150，哪張貴？」</text>
+<path d="M84 416 H466" stroke="#2f8a5b" opacity=".3"/>
+<text x="84" y="444" font-size="13.5" fill="#1d2230">孩子的體驗：我在玩火車，順便算數</text>
+<text x="84" y="472" font-size="13.5" fill="#2f8a5b">長期效果：學習本身變得可接受</text>
+
+<rect x="510" y="300" width="430" height="200" rx="14" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2"/>
+<text x="725" y="334" text-anchor="middle" font-size="18" font-weight="700" fill="#9a3b2f">酬賞式（謹慎：至多兩成）</text>
+<text x="534" y="368" font-size="14" fill="#1d2230">做完不喜歡的事，「才給」火車</text>
+<text x="534" y="398" font-size="13.5" fill="#5a6378">「作業寫完，才可以看火車影片」</text>
+<path d="M534 416 H916" stroke="#9a3b2f" opacity=".3"/>
+<text x="534" y="444" font-size="13.5" fill="#1d2230">孩子的體驗：我在做討厭的事來換火車</text>
+<text x="534" y="472" font-size="13.5" fill="#9a3b2f">長期效果：學習被標記為「討厭的事」</text>
+
+<rect x="60" y="520" width="880" height="76" rx="12" fill="#14182a"/>
+<text x="500" y="552" text-anchor="middle" font-size="16" font-weight="700" fill="#f4b860">檢查方法：如果拿掉獎勵，他還會做嗎？</text>
+<text x="500" y="580" text-anchor="middle" font-size="13.5" fill="#e7ecf7">這個問題也提前告訴你，這套訓練在你不在場時還能不能運作——而在小作所裡，你不會在場。</text>
+
+<text x="950" y="622" text-anchor="end" font-size="11" fill="#5a6378">慢車到站 · The Slow Train Arrives</text></g></svg>

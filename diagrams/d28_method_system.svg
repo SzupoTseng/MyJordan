@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">三百條的真相，與六大板塊</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<rect x="50" y="100" width="430" height="200" rx="14" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2.5"/>
+<text x="265" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#9a3b2f">清單的實際結構</text>
+<text x="74" y="166" font-size="14" fill="#1d2230">編號總數　　　　　　　　　　300</text>
+<text x="74" y="194" font-size="14" fill="#1d2230">實際有內容的條目　　　　　　291</text>
+<text x="74" y="222" font-size="14" font-weight="700" fill="#9a3b2f">去除同名後的唯一條目　　　　237</text>
+<path d="M74 236 H456" stroke="#9a3b2f" opacity=".3"/>
+<text x="74" y="262" font-size="13.5" fill="#1d2230">第 1–100 條的唯一條目　　　99 / 99</text>
+<text x="74" y="288" font-size="13.5" fill="#9a3b2f">第 201–300 條的唯一條目　　77 / 98</text>
+
+<rect x="510" y="100" width="440" height="200" rx="14" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2.5"/>
+<text x="730" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#2f8a5b">變體不是雜訊，是類化清單</text>
+<text x="534" y="164" font-size="13.5" fill="#1d2230">「指尖對稱撕貼 × 圓形封口貼紙」</text>
+<text x="534" y="188" font-size="13.5" fill="#1d2230">「雙指對稱撕貼 × 弧形封口條」</text>
+<text x="534" y="212" font-size="13.5" fill="#1d2230">「指尖對稱夾取 × 雙層氣泡袋」</text>
+<text x="534" y="242" font-size="13.5" fill="#2f8a5b">→ 同一個動作的三種材質。</text>
+<text x="534" y="270" font-size="13.5" fill="#1d2230">實質不同的方法：約 60–80 種，</text>
+<text x="534" y="290" font-size="13.5" fill="#1d2230">其餘是換材質、換面額、換職稱。</text>
+
+<rect x="50" y="326" width="900" height="130" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="72" y="356" font-size="16" font-weight="700" fill="#2f5d7a">六大板塊：任何方法都要能標出它屬於哪一個</text>
+<g font-size="13.5" fill="#1d2230">
+<text x="72" y="388">① 聽覺工作記憶與多鏈指令　　② 制式社交腳本　　③ 衝動抑制與延宕滿足</text>
+<text x="72" y="416">④ 生活功能數學與空間　　　　⑤ 手部精細動作與雙側協調　　⑥ 生化與作息地基</text>
+</g>
+<text x="72" y="442" font-size="13" fill="#9a3b2f">標不出板塊的方法，這個階段就不做。</text>
+
+<rect x="50" y="482" width="430" height="110" rx="12" fill="#14182a"/>
+<text x="265" y="514" text-anchor="middle" font-size="17" font-weight="700" fill="#f4b860">強度公式</text>
+<text x="265" y="546" text-anchor="middle" font-size="15" fill="#e7ecf7">效果 ≈ 頻率 × 單次時長 × 情境數</text>
+<text x="265" y="574" text-anchor="middle" font-size="13" fill="#aeb6d4">做了沒效，多半是情境數 = 1</text>
+
+<rect x="510" y="482" width="440" height="110" rx="12" fill="#fdf3e3" stroke="#e8c88a"/>
+<text x="730" y="512" text-anchor="middle" font-size="16" font-weight="700" fill="#9a6a1a">三個篩子</text>
+<text x="534" y="542" font-size="13.5" fill="#1d2230">① 屬於哪個板塊？　② 對應這學期的主戰場嗎？</text>
+<text x="534" y="568" font-size="13.5" fill="#1d2230">③ 有沒有可觀察的檢核？　→ 篩完通常剩 5–8 條</text>
+
+<text x="950" y="622" text-anchor="end" font-size="11" fill="#5a6378">慢車到站 · The Slow Train Arrives</text></g></svg>

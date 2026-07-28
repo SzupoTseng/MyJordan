@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">會議桌上：三份文件，四層優先序</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)"><rect x="50" y="102" width="285" height="150" rx="12" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/></g>
+<text x="192" y="134" text-anchor="middle" font-size="17" font-weight="700" fill="#2f5d7a">文件一　一頁摘要</text>
+<text x="72" y="164" font-size="13" fill="#1d2230">現況三句 · 醫療三行</text>
+<text x="72" y="188" font-size="13" fill="#1d2230">三個可評量目標</text>
+<text x="72" y="212" font-size="13" fill="#1d2230">需要的支持 · 家庭端在做什麼</text>
+<text x="72" y="236" font-size="13" fill="#1d2230">回報方式</text>
+
+<g filter="url(#陰影)"><rect x="357" y="102" width="285" height="150" rx="12" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/></g>
+<text x="499" y="134" text-anchor="middle" font-size="17" font-weight="700" fill="#9a6a1a">文件二　能力證據</text>
+<text x="379" y="164" font-size="13" fill="#1d2230">3–5 張照片或短片</text>
+<text x="379" y="188" font-size="13" fill="#1d2230">做家事 · 用檢核卡</text>
+<text x="379" y="212" font-size="13" fill="#1d2230">完成代工 · 超商結帳</text>
+<text x="379" y="236" font-size="13" fill="#9a6a1a">證據勝過任何形容詞</text>
+
+<g filter="url(#陰影)"><rect x="664" y="102" width="286" height="150" rx="12" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/></g>
+<text x="807" y="134" text-anchor="middle" font-size="17" font-weight="700" fill="#2f8a5b">文件三　給老師的備忘錄</text>
+<text x="686" y="164" font-size="13" fill="#1d2230">醫療與安全 · 他學得最好的方式</text>
+<text x="686" y="188" font-size="13" fill="#1d2230">固著行為的引導</text>
+<text x="686" y="212" font-size="13" fill="#1d2230">他的三句話</text>
+<text x="686" y="236" font-size="13" fill="#1d2230">家庭端正在做的事</text>
+
+<rect x="50" y="282" width="900" height="96" rx="12" fill="#14182a"/>
+<text x="500" y="314" text-anchor="middle" font-size="17" font-weight="700" fill="#f4b860">會議桌上唯一有效的語言：可評量的目標</text>
+<text x="500" y="344" text-anchor="middle" font-size="13.5" fill="#9aa2b7">✗「請老師多關照」　　✗「提升專注力」</text>
+<text x="500" y="368" text-anchor="middle" font-size="13.5" fill="#e7ecf7">✓「能持續在工作崗位操作 20 分鐘，中途不需口頭提醒，達成率 70%」</text>
+
+<g filter="url(#陰影)">
+<rect x="50" y="404" width="900" height="46" rx="9" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2"/>
+<rect x="80" y="456" width="840" height="44" rx="9" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<rect x="110" y="506" width="780" height="44" rx="9" fill="#eef5f7" stroke="#bcd6df" stroke-width="2"/>
+<rect x="140" y="556" width="720" height="44" rx="9" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+</g>
+<text x="72" y="433" font-size="15" font-weight="700" fill="#9a3b2f">第一優先　安全與醫療</text>
+<text x="420" y="433" font-size="13" fill="#1d2230">緊急處置流程 · 可以休息的授權 · 校外活動的支持人力</text>
+<text x="102" y="484" font-size="15" font-weight="700" fill="#9a6a1a">第二優先　可評量目標</text>
+<text x="420" y="484" font-size="13" fill="#1d2230">三項目標寫進 IEP · 檢核方式與回報頻率</text>
+<text x="132" y="534" font-size="15" font-weight="700" fill="#2f5d7a">第三優先　教學策略</text>
+<text x="420" y="534" font-size="13" fill="#1d2230">視覺檢核卡 · 交辦後覆誦 · 固著的一致處理</text>
+<text x="162" y="584" font-size="15" font-weight="700" fill="#2f8a5b">第四優先　加值項目</text>
+<text x="440" y="584" font-size="13" fill="#1d2230">實作課安排 · 社區適應 · 座位與分組</text>
+
+<text x="950" y="628" text-anchor="end" font-size="11" fill="#5a6378">慢車到站 · The Slow Train Arrives</text></g></svg>

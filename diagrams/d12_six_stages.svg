@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">四年時間軸：六站，一站一站開</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<path d="M70 210 H930" stroke="#5a6378" stroke-width="4"/>
+<path d="M70 224 H930" stroke="#5a6378" stroke-width="4"/>
+<g stroke="#c9c3b4" stroke-width="2.5">
+<path d="M100 204 V230"/><path d="M240 204 V230"/><path d="M380 204 V230"/><path d="M520 204 V230"/><path d="M660 204 V230"/><path d="M800 204 V230"/><path d="M920 204 V230"/>
+</g>
+
+<g filter="url(#陰影)">
+<rect x="62" y="112" width="132" height="76" rx="10" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/>
+<rect x="202" y="112" width="132" height="76" rx="10" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/>
+<rect x="342" y="112" width="132" height="76" rx="10" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<rect x="482" y="112" width="132" height="76" rx="10" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<rect x="622" y="112" width="132" height="76" rx="10" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+<rect x="762" y="112" width="168" height="76" rx="10" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+</g>
+<g text-anchor="middle" font-size="16" font-weight="700">
+<text x="128" y="140" fill="#2f5d7a">S1 奠基期</text><text x="268" y="140" fill="#2f5d7a">S2 轉化期</text>
+<text x="408" y="140" fill="#9a6a1a">S3 職業探索</text><text x="548" y="140" fill="#9a6a1a">S4 職場耐受</text>
+<text x="688" y="140" fill="#2f8a5b">S5 實習期</text><text x="846" y="140" fill="#2f8a5b">S6 轉銜期</text>
+</g>
+<g text-anchor="middle" font-size="12.5" fill="#5a6378">
+<text x="128" y="166">國三上</text><text x="268" y="166">國三下</text><text x="408" y="166">高職一</text>
+<text x="548" y="166">高職二</text><text x="688" y="166">高職三上</text><text x="846" y="166">高職三下～畢業後</text>
+<text x="128" y="182">主核心 C1</text><text x="268" y="182">主核心 C2</text><text x="408" y="182">C1＋C3</text>
+<text x="548" y="182">主核心 C1</text><text x="688" y="182">C2＋C1</text><text x="846" y="182">維持與防退化</text>
+</g>
+
+<g text-anchor="middle" font-size="12.5" fill="#1d2230">
+<text x="128" y="258">三格檢核卡</text><text x="128" y="278">視覺計時器</text>
+<text x="268" y="258">雙層指令</text><text x="268" y="278">票價與紙鈔</text>
+<text x="408" y="258">多種工具</text><text x="408" y="278">職稱與台詞</text>
+<text x="548" y="258">計數器</text><text x="548" y="278">抗干擾</text>
+<text x="688" y="258">路線與地圖</text><text x="688" y="278">陌生主管</text>
+<text x="846" y="258">交接手冊</text><text x="846" y="278">朝九晚五</text>
+</g>
+
+<rect x="62" y="310" width="868" height="86" rx="12" fill="#14182a"/>
+<text x="496" y="342" text-anchor="middle" font-size="17" font-weight="700" fill="#f4b860">階段對應的是「能力」，不是「年級」</text>
+<text x="496" y="372" text-anchor="middle" font-size="13.5" fill="#e7ecf7">高二才開始 → 一樣先補 S1；已畢業在家 → S1 與成人作息同時做。用快篩定位，不用年級。</text>
+
+<rect x="62" y="418" width="278" height="170" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="84" y="448" font-size="15" font-weight="700" fill="#2f5d7a">轉站要過三道門</text>
+<text x="84" y="478" font-size="13.5" fill="#1d2230">① 能力門：離站標準連續兩週</text>
+<text x="84" y="504" font-size="13.5" fill="#1d2230">② 地基門：五塊地基沒亮紅燈</text>
+<text x="84" y="530" font-size="13.5" fill="#1d2230">③ 照顧者門：自檢未達 3 項</text>
+<text x="84" y="562" font-size="13" fill="#9a3b2f">任一道沒過 → 留站</text>
+
+<rect x="358" y="418" width="278" height="170" rx="12" fill="#fdf3e3" stroke="#e8c88a"/>
+<text x="380" y="448" font-size="15" font-weight="700" fill="#9a6a1a">卡住的三種讀法</text>
+<text x="380" y="478" font-size="13.5" fill="#1d2230">能力卡 → 降一階，重拿成功經驗</text>
+<text x="380" y="504" font-size="13.5" fill="#1d2230">動機卡 → 回 C3 換外殼</text>
+<text x="380" y="530" font-size="13.5" fill="#1d2230">地基卡 → 停止推進，查第 11 章</text>
+<text x="380" y="562" font-size="13" fill="#9a3b2f">倒退＝醫療事件，當天就醫</text>
+
+<rect x="654" y="418" width="276" height="170" rx="12" fill="#eef7f0" stroke="#2f8a5b"/>
+<text x="676" y="448" font-size="15" font-weight="700" fill="#2f8a5b">留站不是失敗</text>
+<text x="676" y="478" font-size="13.5" fill="#1d2230">四年跑完六站是理想值，</text>
+<text x="676" y="504" font-size="13.5" fill="#1d2230">不是及格線。</text>
+<text x="676" y="536" font-size="13.5" fill="#1d2230">機構評估看的是穩定度，</text>
+<text x="676" y="562" font-size="13.5" fill="#1d2230">不是你上過幾課。</text>
+
+<text x="950" y="622" text-anchor="end" font-size="11" fill="#5a6378">慢車到站 · The Slow Train Arrives</text></g></svg>

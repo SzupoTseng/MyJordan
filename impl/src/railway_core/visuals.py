@@ -219,7 +219,10 @@ def _grid(x: float, y: float, widths: list[float], rows: int,
     """畫一張表格：表頭 + N 列空格。"""
     parts = []
     cx = x
-    for width, title in zip(widths, headers):
+    # 【WHY strict=True】欄寬與表頭的數量若不一致,zip 會靜默截斷——
+    # 表格會少一欄,而印出來的紙上沒有任何跡象顯示少了東西。
+    # 這正是表格產生器最容易犯、也最難發現的一種錯。ruff B905 抓到的。
+    for width, title in zip(widths, headers, strict=True):
         parts.append(
             f'<rect x="{cx:.1f}" y="{y:.1f}" width="{width:.1f}" height="{row_h:.1f}" '
             f'fill="#f0ebdd" stroke="{_LINE}" stroke-width="1.5"/>'

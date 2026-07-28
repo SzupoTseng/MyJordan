@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">会议桌上：三份文档，四层优先序</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)"><rect x="50" y="102" width="285" height="150" rx="12" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/></g>
+<text x="192" y="134" text-anchor="middle" font-size="17" font-weight="700" fill="#2f5d7a">文档一　一页摘要</text>
+<text x="72" y="164" font-size="13" fill="#1d2230">现况三句 · 医疗三行</text>
+<text x="72" y="188" font-size="13" fill="#1d2230">三个可评量目标</text>
+<text x="72" y="212" font-size="13" fill="#1d2230">需要的支持 · 家庭端在做什么</text>
+<text x="72" y="236" font-size="13" fill="#1d2230">回报方式</text>
+
+<g filter="url(#陰影)"><rect x="357" y="102" width="285" height="150" rx="12" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/></g>
+<text x="499" y="134" text-anchor="middle" font-size="17" font-weight="700" fill="#9a6a1a">文档二　能力证据</text>
+<text x="379" y="164" font-size="13" fill="#1d2230">3–5 张照片或短片</text>
+<text x="379" y="188" font-size="13" fill="#1d2230">做家事 · 用检核卡</text>
+<text x="379" y="212" font-size="13" fill="#1d2230">完成代工 · 超商结帐</text>
+<text x="379" y="236" font-size="13" fill="#9a6a1a">证据胜过任何形容词</text>
+
+<g filter="url(#陰影)"><rect x="664" y="102" width="286" height="150" rx="12" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/></g>
+<text x="807" y="134" text-anchor="middle" font-size="17" font-weight="700" fill="#2f8a5b">文档三　给老师的备忘录</text>
+<text x="686" y="164" font-size="13" fill="#1d2230">医疗与安全 · 他学得最好的方式</text>
+<text x="686" y="188" font-size="13" fill="#1d2230">固着行为的引导</text>
+<text x="686" y="212" font-size="13" fill="#1d2230">他的三句话</text>
+<text x="686" y="236" font-size="13" fill="#1d2230">家庭端正在做的事</text>
+
+<rect x="50" y="282" width="900" height="96" rx="12" fill="#14182a"/>
+<text x="500" y="314" text-anchor="middle" font-size="17" font-weight="700" fill="#f4b860">会议桌上唯一有效的语言：可评量的目标</text>
+<text x="500" y="344" text-anchor="middle" font-size="13.5" fill="#9aa2b7">✗「请老师多关照」　　✗「提升专注力」</text>
+<text x="500" y="368" text-anchor="middle" font-size="13.5" fill="#e7ecf7">✓「能持续在工作岗位操作 20 分钟，中途不需口头提醒，达成率 70%」</text>
+
+<g filter="url(#陰影)">
+<rect x="50" y="404" width="900" height="46" rx="9" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2"/>
+<rect x="80" y="456" width="840" height="44" rx="9" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<rect x="110" y="506" width="780" height="44" rx="9" fill="#eef5f7" stroke="#bcd6df" stroke-width="2"/>
+<rect x="140" y="556" width="720" height="44" rx="9" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+</g>
+<text x="72" y="433" font-size="15" font-weight="700" fill="#9a3b2f">第一优先　安全与医疗</text>
+<text x="420" y="433" font-size="13" fill="#1d2230">紧急处置流程 · 可以休息的授权 · 校外活动的支持人力</text>
+<text x="102" y="484" font-size="15" font-weight="700" fill="#9a6a1a">第二优先　可评量目标</text>
+<text x="420" y="484" font-size="13" fill="#1d2230">三项目标写进 IEP · 检核方式与回报频率</text>
+<text x="132" y="534" font-size="15" font-weight="700" fill="#2f5d7a">第三优先　教学策略</text>
+<text x="420" y="534" font-size="13" fill="#1d2230">视觉检核卡 · 交办后覆诵 · 固着的一致处理</text>
+<text x="162" y="584" font-size="15" font-weight="700" fill="#2f8a5b">第四优先　加值项目</text>
+<text x="440" y="584" font-size="13" fill="#1d2230">实作课安排 · 社区适应 · 座位与分组</text>
+
+<text x="950" y="628" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

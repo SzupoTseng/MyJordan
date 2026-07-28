@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">行为的功能：先问为什么，再选工具</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)">
+<rect x="60" y="104" width="260" height="92" rx="12" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/>
+<rect x="370" y="104" width="260" height="92" rx="12" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<rect x="680" y="104" width="260" height="92" rx="12" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+</g>
+<text x="190" y="140" text-anchor="middle" font-size="19" font-weight="700" fill="#2f5d7a">A　前事</text>
+<text x="190" y="172" text-anchor="middle" font-size="13.5" fill="#5a6378">之前发生了什么、谁在场、刚被要求什么</text>
+<text x="500" y="140" text-anchor="middle" font-size="19" font-weight="700" fill="#9a6a1a">B　行为</text>
+<text x="500" y="172" text-anchor="middle" font-size="13.5" fill="#5a6378">具体到两个人会记成同一件事</text>
+<text x="810" y="140" text-anchor="middle" font-size="19" font-weight="700" fill="#2f8a5b">C　后果</text>
+<text x="810" y="172" text-anchor="middle" font-size="13.5" fill="#5a6378">★ 他因此得到了什么</text>
+<path d="M322 150 L366 150" fill="none" stroke="#2f5d7a" stroke-width="3" marker-end="url(#箭頭)"/>
+<path d="M632 150 L676 150" fill="none" stroke="#2f5d7a" stroke-width="3" marker-end="url(#箭頭)"/>
+
+<text x="60" y="240" font-size="17" font-weight="700">功能只有四种，而每一种的处置完全不同</text>
+
+<g filter="url(#陰影)">
+<rect x="60" y="256" width="216" height="180" rx="12" fill="#ffffff" stroke="#bcd6df" stroke-width="2"/>
+<rect x="292" y="256" width="216" height="180" rx="12" fill="#ffffff" stroke="#bcd6df" stroke-width="2"/>
+<rect x="524" y="256" width="216" height="180" rx="12" fill="#ffffff" stroke="#bcd6df" stroke-width="2"/>
+<rect x="756" y="256" width="184" height="180" rx="12" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2.5"/>
+</g>
+
+<text x="168" y="288" text-anchor="middle" font-size="17" font-weight="700" fill="#2f5d7a">① 获得注意</text>
+<text x="80" y="318" font-size="13" fill="#1d2230">大人一忙就开始闹</text>
+<text x="80" y="342" font-size="13" fill="#5a6378">被骂之后反而更频繁</text>
+<path d="M80 358 H256" stroke="#bcd6df"/>
+<text x="80" y="382" font-size="12.5" fill="#2f8a5b">✓ 行为时最少反应</text>
+<text x="80" y="404" font-size="12.5" fill="#2f8a5b">✓ 没发生时主动给注意</text>
+<text x="80" y="426" font-size="12.5" fill="#9a3b2f">✗ 斥责与说理都是注意</text>
+
+<text x="400" y="288" text-anchor="middle" font-size="17" font-weight="700" fill="#2f5d7a">② 逃避／回避</text>
+<text x="312" y="318" font-size="13" fill="#1d2230">一交办就讲火车、跑走</text>
+<text x="312" y="342" font-size="13" fill="#5a6378">常被误读成「他懒」</text>
+<path d="M312 358 H488" stroke="#bcd6df"/>
+<text x="312" y="382" font-size="12.5" fill="#2f8a5b">✓ 拆步骤、给选择</text>
+<text x="312" y="404" font-size="12.5" fill="#2f8a5b">✓ 教他说「我想休息」</text>
+<text x="312" y="426" font-size="12.5" fill="#9a3b2f">✗「那先不要做了」</text>
+
+<text x="632" y="288" text-anchor="middle" font-size="17" font-weight="700" fill="#2f5d7a">③ 获得实体物</text>
+<text x="544" y="318" font-size="13" fill="#1d2230">想要就一直吵</text>
+<text x="544" y="342" font-size="13" fill="#5a6378">给了就停</text>
+<path d="M544 358 H720" stroke="#bcd6df"/>
+<text x="544" y="382" font-size="12.5" fill="#2f8a5b">✓ 明确规则与时间框</text>
+<text x="544" y="404" font-size="12.5" fill="#2f8a5b">✓ 代币制、教他要求</text>
+<text x="544" y="426" font-size="12.5" fill="#9a3b2f">✗ 吵到受不了才给</text>
+
+<text x="848" y="288" text-anchor="middle" font-size="17" font-weight="700" fill="#9a3b2f">④ 感官</text>
+<text x="776" y="318" font-size="13" fill="#1d2230">没人在也会做</text>
+<text x="776" y="342" font-size="13" fill="#5a6378">做本身就舒服</text>
+<path d="M776 358 H920" stroke="#9a3b2f" opacity=".3"/>
+<text x="776" y="382" font-size="12.5" fill="#2f8a5b">✓ 替代感官输入</text>
+<text x="776" y="404" font-size="12.5" fill="#2f8a5b">✓ 调整环境</text>
+<text x="776" y="426" font-size="12.5" fill="#9a3b2f">✗ 代币与处罚无效</text>
+
+<rect x="60" y="458" width="880" height="70" rx="12" fill="#14182a"/>
+<text x="500" y="488" text-anchor="middle" font-size="16" font-weight="700" fill="#f4b860">「我什么方法都试过了」——通常代表方向选错了，而不是方法用完了</text>
+<text x="500" y="514" text-anchor="middle" font-size="13.5" fill="#e7ecf7">最常见的一种：功能是感官，却一直加码代币与处罚。</text>
+
+<rect x="60" y="546" width="880" height="58" rx="12" fill="#eef7f0" stroke="#2f8a5b"/>
+<text x="82" y="572" font-size="15" font-weight="700" fill="#2f8a5b">功能等值沟通训练（FCT）</text>
+<text x="82" y="594" font-size="13.5" fill="#1d2230">给他一个「更省力、且同样有效」的说法。两个条件缺一不可——说了没效，他就会回去用旧的，而且更强烈。</text>
+
+<text x="950" y="628" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

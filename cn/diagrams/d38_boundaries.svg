@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">身体界线：场合、界线，与怎么说出来</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)">
+<rect x="60" y="100" width="430" height="176" rx="14" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2.5"/>
+<rect x="510" y="100" width="430" height="176" rx="14" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2.5"/>
+</g>
+<text x="275" y="134" text-anchor="middle" font-size="19" font-weight="700" fill="#2f8a5b">🟢 公开的地方</text>
+<text x="275" y="166" text-anchor="middle" font-size="14.5" fill="#1d2230">客厅 · 厨房 · 餐桌 · 阳台 · 玄关</text>
+<text x="275" y="196" text-anchor="middle" font-size="14.5" fill="#1d2230">学校 · 车站 · 卖场 · 机构</text>
+<path d="M100 214 H450" stroke="#2f8a5b" opacity=".3"/>
+<text x="275" y="244" text-anchor="middle" font-size="14" fill="#5a6378">有别人在 · 门是开的</text>
+
+<text x="725" y="134" text-anchor="middle" font-size="19" font-weight="700" fill="#9a3b2f">🔴 私人的地方</text>
+<text x="725" y="166" text-anchor="middle" font-size="14.5" fill="#1d2230">自己的房间（门关上时）</text>
+<text x="725" y="196" text-anchor="middle" font-size="14.5" fill="#1d2230">浴室 · 厕所</text>
+<path d="M550 214 H900" stroke="#9a3b2f" opacity=".3"/>
+<text x="725" y="244" text-anchor="middle" font-size="14" fill="#5a6378">一个人 · 门关起来</text>
+
+<rect x="60" y="292" width="880" height="52" rx="12" fill="#14182a"/>
+<text x="500" y="324" text-anchor="middle" font-size="18" font-weight="700" fill="#f4b860">规则只有一句：「私人的事，在私人的地方做。」</text>
+
+<text x="60" y="386" font-size="17" font-weight="700">红绿灯身体图</text>
+<g filter="url(#陰影)">
+<rect x="60" y="402" width="276" height="94" rx="10" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+<rect x="352" y="402" width="276" height="94" rx="10" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<rect x="644" y="402" width="296" height="94" rx="10" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2.5"/>
+</g>
+<text x="198" y="432" text-anchor="middle" font-size="16" font-weight="700" fill="#2f8a5b">🟢 可以碰</text>
+<text x="198" y="458" text-anchor="middle" font-size="13.5" fill="#1d2230">手 · 手臂 · 肩膀 · 背</text>
+<text x="198" y="482" text-anchor="middle" font-size="12.5" fill="#5a6378">但仍要先问：「我可以拍你吗？」</text>
+
+<text x="490" y="432" text-anchor="middle" font-size="16" font-weight="700" fill="#9a6a1a">🟡 要看情况</text>
+<text x="490" y="458" text-anchor="middle" font-size="13.5" fill="#1d2230">头 · 脸 · 腰</text>
+<text x="490" y="482" text-anchor="middle" font-size="12.5" fill="#5a6378">家人可以，同学不行</text>
+
+<text x="792" y="432" text-anchor="middle" font-size="16" font-weight="700" fill="#9a3b2f">🔴 泳衣盖住的地方 + 嘴巴</text>
+<text x="792" y="458" text-anchor="middle" font-size="13.5" fill="#1d2230">只有三种情况：自己（私人地方）·</text>
+<text x="792" y="482" text-anchor="middle" font-size="13.5" fill="#1d2230">医师检查（家人在场）· 固定照顾者协助清洁</text>
+
+<rect x="60" y="518" width="430" height="90" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="82" y="546" font-size="15" font-weight="700" fill="#2f5d7a">被害预防的五句话</text>
+<text x="82" y="572" font-size="13" fill="#1d2230">「不要碰我」「我不要」「我要打电话给妈妈」</text>
+<text x="82" y="594" font-size="13" fill="#1d2230">「我要去找老师」「这件事我要跟妈妈说」</text>
+
+<rect x="510" y="518" width="430" height="90" rx="12" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2"/>
+<text x="532" y="546" font-size="15" font-weight="700" fill="#9a3b2f">教服从，就一定要教例外</text>
+<text x="532" y="572" font-size="13" fill="#1d2230">两件事永远可以说不：碰红色的地方、</text>
+<text x="532" y="594" font-size="13" fill="#1d2230">以及叫你保密。★ 没有秘密。</text>
+
+<text x="950" y="628" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

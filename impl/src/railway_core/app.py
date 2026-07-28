@@ -212,7 +212,7 @@ def cmd_function(args: argparse.Namespace, cfg: settings_mod.Settings) -> int:
 
     print(f"目前最可能的功能：{summary.top_label}")
     latest = records[-1]
-    print(f"\n假設句（可直接貼進 IEP）：")
+    print("\n假設句（可直接貼進 IEP）：")
     print(f"  {behavior.hypothesis_sentence(latest.antecedent, latest.behavior, summary.top)}")
 
     do, dont = behavior.strategy_for(summary.top)

@@ -5,7 +5,12 @@ import datetime as dt
 import pytest
 
 from railway_core.schemas import (
-    DailyRecord, GateCheck, GateResult, Profile, ValidationError, parse_date,
+    DailyRecord,
+    GateCheck,
+    GateResult,
+    Profile,
+    ValidationError,
+    parse_date,
 )
 
 

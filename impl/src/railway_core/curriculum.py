@@ -116,7 +116,7 @@ def _m03(rng: random.Random, role: str) -> Question:
         return Question("M03", f"{role}幫忙點名，這裡總共有幾輛火車？", f"{count} 輛",
                         "★ 必須用手指逐一點數，不可以用眼睛掃")
     if which == "第一輛":
-        return Question("M03", f"第一輛是什麼顏色？", f"{picked[0]}色",
+        return Question("M03", "第一輛是什麼顏色？", f"{picked[0]}色",
                         f"排列順序：{'、'.join(picked)}")
     return Question("M03", "最後一輛是什麼顏色？", f"{picked[-1]}色",
                     f"排列順序：{'、'.join(picked)}")

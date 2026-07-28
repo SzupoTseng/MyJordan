@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#9a3b2f"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">诊断屏蔽，与四层鉴别</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<rect x="60" y="100" width="880" height="112" rx="14" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2.5"/>
+<text x="82" y="132" font-size="18" font-weight="700" fill="#9a3b2f">诊断屏蔽（Diagnostic Overshadowing）</text>
+<g font-size="13.5" fill="#1d2230">
+<text x="82" y="162">他最近很躁动 →「自闭症本来就这样」　　他不肯吃饭 →「他就是挑食」</text>
+<text x="82" y="186">他晚上睡不着 →「他固着」　　他退缩不玩了 →「他心情不好」</text>
+</g>
+<text x="620" y="162" font-size="13.5" fill="#9a3b2f">真相可能是：焦虑发作</text>
+<text x="620" y="186" font-size="13.5" fill="#9a3b2f">牙痛／睡眠呼吸中止／忧郁／便秘</text>
+
+<text x="60" y="252" font-size="17" font-weight="700">行为变化出现时，按这个顺序排查</text>
+
+<g filter="url(#陰影)">
+<rect x="60" y="268" width="880" height="60" rx="10" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2.5"/>
+<rect x="60" y="336" width="880" height="60" rx="10" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2.5"/>
+<rect x="60" y="404" width="880" height="60" rx="10" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/>
+<rect x="60" y="472" width="880" height="60" rx="10" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+</g>
+<text x="86" y="305" font-size="16" font-weight="700" fill="#9a3b2f">第一层　生理／急性</text>
+<text x="330" y="305" font-size="13.5" fill="#1d2230">痛（牙／耳／腹／经期）· 感染 · 便秘 · 药物不良反应 · 发作</text>
+<text x="86" y="373" font-size="16" font-weight="700" fill="#9a6a1a">第二层　共病 ★</text>
+<text x="330" y="373" font-size="13.5" fill="#1d2230">焦虑 · 忧郁 · ADHD · 睡眠障碍 · 喂食肠胃 · 感觉调节</text>
+<text x="86" y="441" font-size="16" font-weight="700" fill="#2f5d7a">第三层　行为功能</text>
+<text x="330" y="441" font-size="13.5" fill="#1d2230">注意／逃避／实体物／感官 —— 前两层排除后，做两周 ABC</text>
+<text x="86" y="509" font-size="16" font-weight="700" fill="#2f8a5b">第四层　方法与强度</text>
+<text x="330" y="509" font-size="13.5" fill="#1d2230">难度 · 提示 · 增强 · 环境 —— 最后才调这一层</text>
+<path d="M40 290 L40 512" fill="none" stroke="#9a3b2f" stroke-width="3" marker-end="url(#箭頭)"/>
+
+<rect x="60" y="548" width="430" height="62" rx="12" fill="#14182a"/>
+<text x="275" y="576" text-anchor="middle" font-size="15" font-weight="700" fill="#f4b860">多数家庭直接从第四层开始</text>
+<text x="275" y="598" text-anchor="middle" font-size="13" fill="#e7ecf7">而多数挫折来自于此。</text>
+
+<rect x="510" y="548" width="430" height="62" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="532" y="576" font-size="15" font-weight="700" fill="#2f5d7a">戳破屏蔽的唯一问题</text>
+<text x="532" y="598" font-size="13.5" fill="#1d2230">「他以前会不会这样？」不会 → 那就是变化，变化需要解释。</text>
+
+<text x="950" y="628" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

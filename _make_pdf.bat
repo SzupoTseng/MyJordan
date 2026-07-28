@@ -1,70 +1,76 @@
 @echo off
 rem ============================================================
-rem  慢車到站 - PDF 產生（Chrome headless）
-rem  系列標準 BUILD_STANDARD.md §8。四個踩雷已經內建，照跑即可。
+rem  Print an HTML file to PDF via a Chromium browser, headless.
+rem  BUILD_STANDARD.md section 8.
 rem
-rem  用法（在 Windows 命令提示字元，或從 WSL 呼叫 cmd.exe /c）：
-rem      _make_pdf.bat
+rem  Usage:  _make_pdf.bat <input.html> <output.pdf>
+rem  Both arguments should be ASCII paths (see gotcha 5 below).
 rem
-rem  前置：先跑過 python _build.py，確認 慢車到站.html 是最新的。
+rem  Gotchas handled here (all of them cost real debugging time):
+rem   1. --headless=new is required; the old --headless is a no-op
+rem      and silently prints an empty file.
+rem   2. Per-run --user-data-dir in a writable place. A shared
+rem      profile hits a lock and fails silently.
+rem   3. CJK filenames: pass ASCII paths, rename afterwards.
+rem   4. Chrome detaches and writes asynchronously. Do NOT use
+rem      "timeout /t": when invoked from WSL its stdin is
+rem      redirected and it returns immediately. Use ping instead.
+rem   5. THIS FILE MUST STAY ASCII-ONLY. cmd.exe parses .bat with
+rem      the system ANSI codepage, so a UTF-8 .bat containing
+rem      Chinese turns into mojibake and IF EXIST tests fail.
+rem   6. Chrome 150 exits 0 but produces no file. Edge (same
+rem      Chromium core) works. So: try Edge first, Chrome second.
+rem      Also give a generous --virtual-time-budget: a 900 KB
+rem      HTML with 21 inlined SVGs needs far more than 15s.
 rem ============================================================
 
 setlocal
 
-rem --- 依你的環境調整這一行 ---
+set "BROWSER="
+set "EDGE=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+set "EDGE64=C:\Program Files\Microsoft\Edge\Application\msedge.exe"
 set "CHROME=C:\Program Files\Google\Chrome\Application\chrome.exe"
+set "CHROME86=C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 
-if not exist "%CHROME%" (
-  echo [X] 找不到 Chrome：%CHROME%
-  echo     請修改本檔第 12 行的 CHROME 路徑。
+if exist "%EDGE%" set "BROWSER=%EDGE%"
+if not defined BROWSER if exist "%EDGE64%" set "BROWSER=%EDGE64%"
+if not defined BROWSER if exist "%CHROME%" set "BROWSER=%CHROME%"
+if not defined BROWSER if exist "%CHROME86%" set "BROWSER=%CHROME86%"
+
+set "SRC=%~f1"
+set "DST=%~f2"
+
+if not defined BROWSER (
+  echo [X] No Chromium browser found. Edit the paths in this file.
   exit /b 1
 )
-if not exist "慢車到站.html" (
-  echo [X] 找不到 慢車到站.html，請先執行：python _build.py
+if not exist "%SRC%" (
+  echo [X] Input not found: %SRC%
   exit /b 1
 )
+if exist "%DST%" del /q "%DST%"
 
-rem ── 踩雷 3：CJK 檔名先複製成 ASCII 暫存再印，印完改回 ──
-rem  Chrome 對非 ASCII 路徑的處理在部分版本上會靜默失敗。
-copy /y "慢車到站.html" "_slowtrain_tmp.html" >nul
-
-rem ── 踩雷 1：一定要用 --headless=new（舊的 --headless 已成 no-op，會印出空檔）──
-rem ── 踩雷 2：每檔獨立 user-data-dir，且放在可寫目錄；共用 profile 會撞鎖靜默失敗 ──
-rem ── 加渲染等待旗標，否則新 headless 會在渲染完成前就印 → 空白 ──
-echo [1/3] 產生 PDF（約需 20-40 秒，請勿關閉視窗）...
-"%CHROME%" --headless=new --disable-gpu ^
+echo [1/2] Printing with: %BROWSER%
+echo       %SRC%
+"%BROWSER%" --headless=new --disable-gpu --no-sandbox ^
   --run-all-compositor-stages-before-draw ^
-  --virtual-time-budget=15000 ^
+  --virtual-time-budget=60000 ^
   --no-pdf-header-footer ^
-  --user-data-dir="%TEMP%\slowtrain_udd" ^
-  --print-to-pdf="_slowtrain_tmp.pdf" ^
-  "_slowtrain_tmp.html"
+  --user-data-dir="C:\Users\Public\_pdf_udd" ^
+  --print-to-pdf="%DST%" ^
+  "file:///%SRC:\=/%" >nul 2>&1
 
-rem ── 踩雷 4：Chrome headless 是 async detach 寫檔，launch 後要等它寫完。 ──
-rem  不要用 timeout /t —— 從 WSL 經 cmd.exe 呼叫時 stdin 被重導向，timeout 會立即結束。
-echo [2/3] 等待寫檔完成...
-ping -n 26 127.0.0.1 >nul
+echo [2/2] Waiting for the async write to finish...
+ping -n 61 127.0.0.1 >nul
+rmdir /s /q "C:\Users\Public\_pdf_udd" >nul 2>&1
 
-if not exist "_slowtrain_tmp.pdf" (
-  echo [X] PDF 沒有產生。常見原因：
-  echo     - Chrome 版本較舊，不支援 --headless=new
-  echo     - user-data-dir 不可寫
-  del "_slowtrain_tmp.html" >nul 2>&1
-  rmdir /s /q "%TEMP%\slowtrain_udd" >nul 2>&1
+if not exist "%DST%" (
+  echo [X] No PDF produced.
+  echo     Try: another Chromium browser, or a longer virtual-time-budget.
   exit /b 1
 )
-
-echo [3/3] 收尾...
-move /y "_slowtrain_tmp.pdf" "慢車到站.pdf" >nul
-del "_slowtrain_tmp.html" >nul 2>&1
-rmdir /s /q "%TEMP%\slowtrain_udd" >nul 2>&1
-
-for %%A in ("慢車到站.pdf") do set SIZE=%%~zA
-set /a SIZE_MB=%SIZE%/1048576
-echo.
-echo [OK] 已產生 慢車到站.pdf（約 %SIZE_MB% MB）
-echo.
-echo 正常大小參考：純文字書約 14-16 MB；含整頁封面海報的圖多書約 30 MB。
-echo 若超過 100 MB，代表是手動 Ctrl+P 並勾了「背景圖形」——那會把 CSS 漸層點陣化。
-echo 請一律用這支腳本，不要手動列印。
+for %%A in ("%DST%") do echo [OK] %DST% - %%~zA bytes
+echo      Reference: text-only book 14-16 MB; image-heavy with a full-page
+echo      cover poster around 25-30 MB. Over 100 MB means someone printed
+echo      manually with "background graphics" on - never do that.
 endlocal

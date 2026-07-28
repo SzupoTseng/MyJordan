@@ -119,7 +119,16 @@ python _build.py     # 產 <Title>.html（側欄目錄）＋ <Title>_全書/_ful
   `--headless=new --disable-gpu --run-all-compositor-stages-before-draw --virtual-time-budget=15000 --no-pdf-header-footer`
 - **從 WSL 經 `cmd.exe` 跑 bat 時 `timeout /t` 會失效**（stdin 被重導向 →「不支援將輸入重新導向」立即結束、完全不等）。**改用 `ping -n <秒+1> 127.0.0.1 >nul` 當 sleep**；且 chrome headless 是 **async detach 寫檔**，launch 後要等 **~20 秒**讓它寫完再檢查／印下一檔。
 
-《慢車到站》已把上述四個踩雷寫成可直接執行的 `_make_pdf.bat`（含 ASCII 暫存改名、
+**★ 2026-07 又踩到的兩個（《慢車到站》實測）**：
+5. **`.bat` 檔必須是純 ASCII**。`cmd.exe` 用系統 ANSI 頁碼（台灣是 cp950）解析 `.bat`，
+   一個含中文的 UTF-8 批次檔會整個變成亂碼——而最惡劣的是 `if exist "中文檔名"` 會
+   **靜默判為不存在**然後走進錯誤分支。做法：批次檔全英文，中文檔名由呼叫端（Makefile／WSL）
+   複製成 ASCII 暫存再傳進去。
+6. **Chrome 150 會 exit 0 但不產生檔案**；同核心的 **Edge 可以**。
+   因此腳本應該**先試 Edge、再試 Chrome**。另外 `--virtual-time-budget=15000` 對
+   「900 KB HTML + 21 張內嵌 SVG」不夠，實測要 **60000**，且 launch 後要等 **60 秒**再檢查。
+
+《慢車到站》已把上述六個踩雷寫成可直接執行的 `_make_pdf.bat`（含 ASCII 暫存改名、
 獨立 user-data-dir、`ping` 當 sleep、以及產出大小的自我檢查）——新書可直接複製該檔改常數。
 
 可用範例（每檔一段；bat 存 CRLF）：

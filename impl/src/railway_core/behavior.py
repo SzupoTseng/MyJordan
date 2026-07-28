@@ -10,9 +10,10 @@ from __future__ import annotations
 
 import datetime as _dt
 from collections import Counter
+from collections.abc import Iterable
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 
 from .schemas import ValidationError, parse_date
 from .tracking import append_jsonl, read_jsonl
@@ -103,7 +104,7 @@ class AbcRecord:
         return data
 
     @staticmethod
-    def from_dict(data: dict[str, Any]) -> "AbcRecord":
+    def from_dict(data: dict[str, Any]) -> AbcRecord:
         raw = dict(data)
         known = set(AbcRecord.__dataclass_fields__)
         unknown = set(raw) - known

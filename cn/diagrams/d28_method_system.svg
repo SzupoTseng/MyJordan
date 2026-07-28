@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">三百条的真相，与六大板块</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<rect x="50" y="100" width="430" height="200" rx="14" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2.5"/>
+<text x="265" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#9a3b2f">清单的实际结构</text>
+<text x="74" y="166" font-size="14" fill="#1d2230">编号总数　　　　　　　　　　300</text>
+<text x="74" y="194" font-size="14" fill="#1d2230">实际有内容的条目　　　　　　291</text>
+<text x="74" y="222" font-size="14" font-weight="700" fill="#9a3b2f">去除同名后的唯一条目　　　　237</text>
+<path d="M74 236 H456" stroke="#9a3b2f" opacity=".3"/>
+<text x="74" y="262" font-size="13.5" fill="#1d2230">第 1–100 条的唯一条目　　　99 / 99</text>
+<text x="74" y="288" font-size="13.5" fill="#9a3b2f">第 201–300 条的唯一条目　　77 / 98</text>
+
+<rect x="510" y="100" width="440" height="200" rx="14" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2.5"/>
+<text x="730" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#2f8a5b">变体不是杂讯，是类化清单</text>
+<text x="534" y="164" font-size="13.5" fill="#1d2230">「指尖对称撕贴 × 圆形封口贴纸」</text>
+<text x="534" y="188" font-size="13.5" fill="#1d2230">「双指对称撕贴 × 弧形封口条」</text>
+<text x="534" y="212" font-size="13.5" fill="#1d2230">「指尖对称夹取 × 双层气泡袋」</text>
+<text x="534" y="242" font-size="13.5" fill="#2f8a5b">→ 同一个动作的三种材质。</text>
+<text x="534" y="270" font-size="13.5" fill="#1d2230">实质不同的方法：约 60–80 种，</text>
+<text x="534" y="290" font-size="13.5" fill="#1d2230">其余是换材质、换面额、换职称。</text>
+
+<rect x="50" y="326" width="900" height="130" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="72" y="356" font-size="16" font-weight="700" fill="#2f5d7a">六大板块：任何方法都要能标出它属于哪一个</text>
+<g font-size="13.5" fill="#1d2230">
+<text x="72" y="388">① 听觉工作记忆与多链指令　　② 制式社交脚本　　③ 冲动抑制与延宕满足</text>
+<text x="72" y="416">④ 生活功能数学与空间　　　　⑤ 手部精细动作与双侧协调　　⑥ 生化与作息地基</text>
+</g>
+<text x="72" y="442" font-size="13" fill="#9a3b2f">标不出板块的方法，这个阶段就不做。</text>
+
+<rect x="50" y="482" width="430" height="110" rx="12" fill="#14182a"/>
+<text x="265" y="514" text-anchor="middle" font-size="17" font-weight="700" fill="#f4b860">强度公式</text>
+<text x="265" y="546" text-anchor="middle" font-size="15" fill="#e7ecf7">效果 ≈ 频率 × 单次时长 × 情境数</text>
+<text x="265" y="574" text-anchor="middle" font-size="13" fill="#aeb6d4">做了没效，多半是情境数 = 1</text>
+
+<rect x="510" y="482" width="440" height="110" rx="12" fill="#fdf3e3" stroke="#e8c88a"/>
+<text x="730" y="512" text-anchor="middle" font-size="16" font-weight="700" fill="#9a6a1a">三个筛子</text>
+<text x="534" y="542" font-size="13.5" fill="#1d2230">① 属于哪个板块？　② 对应这学期的主战场吗？</text>
+<text x="534" y="568" font-size="13.5" fill="#1d2230">③ 有没有可观察的检核？　→ 筛完通常剩 5–8 条</text>
+
+<text x="950" y="622" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

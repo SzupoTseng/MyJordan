@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><marker id="綠箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2f8a5b"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">工作分析与连锁：把一件事拆到他做得到</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<rect x="60" y="100" width="880" height="58" rx="12" fill="#14182a"/>
+<text x="500" y="126" text-anchor="middle" font-size="16" font-weight="700" fill="#f4b860">切多细？每一步是一个 3–7 秒可完成的动作，而且大人能一眼看出他做了没有</text>
+<text x="500" y="148" text-anchor="middle" font-size="13" fill="#aeb6d4">写法：自己做一次并念出动作 → 录像逐格写下 → 让另一个人只照表做（会卡住的地方就是你漏掉的）</text>
+
+<text x="60" y="196" font-size="17" font-weight="700">三种连锁：从哪一步开始教</text>
+
+<g filter="url(#陰影)">
+<rect x="60" y="212" width="286" height="150" rx="12" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/>
+<rect x="358" y="212" width="286" height="150" rx="12" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2.5"/>
+<rect x="656" y="212" width="284" height="150" rx="12" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+</g>
+<text x="203" y="244" text-anchor="middle" font-size="18" font-weight="700" fill="#2f5d7a">前向连锁</text>
+<text x="203" y="274" text-anchor="middle" font-size="13.5" fill="#1d2230">先教第 1 步，其余大人完成</text>
+<text x="203" y="300" text-anchor="middle" font-size="13" fill="#5a6378">适合：步骤少、前段简单</text>
+<text x="203" y="336" text-anchor="middle" font-size="13" fill="#9a3b2f">前几周他看不到成品</text>
+
+<text x="501" y="244" text-anchor="middle" font-size="18" font-weight="700" fill="#2f8a5b">后向连锁</text>
+<text x="501" y="274" text-anchor="middle" font-size="13.5" fill="#1d2230">大人做前面，他做最后一步</text>
+<text x="501" y="300" text-anchor="middle" font-size="13" fill="#5a6378">适合：动机低、容易放弃</text>
+<text x="501" y="336" text-anchor="middle" font-size="13" fill="#2f8a5b">★ 每一次都是他完成的</text>
+
+<text x="798" y="244" text-anchor="middle" font-size="18" font-weight="700" fill="#9a6a1a">全工作呈现</text>
+<text x="798" y="274" text-anchor="middle" font-size="13.5" fill="#1d2230">每次从头做到尾，卡住给提示</text>
+<text x="798" y="300" text-anchor="middle" font-size="13" fill="#5a6378">适合：已会部分、步骤不多</text>
+<text x="798" y="336" text-anchor="middle" font-size="13" fill="#5a6378">最接近真实情境</text>
+
+<text x="60" y="404" font-size="17" font-weight="700">提示层级：记录的是「用了哪一格」，不是「会或不会」</text>
+<g filter="url(#陰影)">
+<rect x="60" y="420" width="150" height="56" rx="9" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2"/>
+<rect x="226" y="420" width="150" height="56" rx="9" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<rect x="392" y="420" width="150" height="56" rx="9" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<rect x="558" y="420" width="150" height="56" rx="9" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/>
+<rect x="724" y="420" width="216" height="56" rx="9" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2.5"/>
+</g>
+<g text-anchor="middle" font-size="15" font-weight="700">
+<text x="135" y="446" fill="#9a3b2f">P 肢体协助</text><text x="301" y="446" fill="#9a6a1a">M 示范</text>
+<text x="467" y="446" fill="#9a6a1a">V 口头</text><text x="633" y="446" fill="#2f5d7a">G 手势</text>
+<text x="832" y="446" fill="#2f8a5b">I 独立　← 目标</text>
+</g>
+<g text-anchor="middle" font-size="12" fill="#5a6378">
+<text x="135" y="466">最多协助</text><text x="832" y="466">最少协助</text>
+</g>
+<path d="M215 448 L222 448" stroke="#2f5d7a" stroke-width="2"/>
+<path d="M60 490 H940" stroke="#2f8a5b" stroke-width="3" marker-end="url(#綠箭頭)"/>
+<text x="80" y="510" font-size="13" fill="#5a6378">全新的动作 → 用时间延宕（先立刻提示，再逐次延后）</text>
+<text x="600" y="510" font-size="13" fill="#5a6378">已会一半 → 用最少提示（等 5 秒，不行才往上加）</text>
+
+<rect x="60" y="530" width="430" height="76" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="82" y="558" font-size="15" font-weight="700" fill="#2f5d7a">类化：换材料 / 换地点 / 换人 / 换时间</text>
+<text x="82" y="584" font-size="13" fill="#1d2230">一次只换一项。四项都换过，才算真的会。</text>
+
+<rect x="510" y="530" width="430" height="76" rx="12" fill="#fdf3e3" stroke="#e8c88a"/>
+<text x="532" y="558" font-size="15" font-weight="700" fill="#9a6a1a">维持：第 4 周、第 8 周各回检一次</text>
+<text x="532" y="584" font-size="13" fill="#1d2230">退步是正常的；退回前一个提示层级，通常一两次就拉得回来。</text>
+
+<text x="950" y="628" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

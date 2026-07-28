@@ -9,7 +9,6 @@ from railway_core import safety, visuals
 
 from ..conftest import make_record
 
-
 # ── safety ───────────────────────────────────────────────────
 
 

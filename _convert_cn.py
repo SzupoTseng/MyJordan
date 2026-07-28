@@ -16,6 +16,8 @@ WSL 若無 pip，可改用 Windows python 執行（多半已裝 opencc）。
 """
 import glob
 import os
+import re
+import shutil
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -28,8 +30,20 @@ except ImportError:  # pragma: no cover - 環境相依
 
 c = opencc.OpenCC("tw2sp")
 
-# OpenCC 不轉的台灣專用代名詞 -> 大陸標準简体
-EXTRA = {"牠": "它", "妳": "你", "祂": "它"}
+# 轉換後的修正表。分兩類:
+#   ① OpenCC 不轉的台灣專用代名詞
+#   ② OpenCC **轉錯**的詞——tw2sp 會做台灣用語→大陸用語的詞彙替換,
+#      而詞彙替換是看不懂語境的。
+#
+# 【真實踩到的一個】「核心」→「内核」。
+#   tw2sp 認為台灣的「核心」對應大陸的「内核」——那在計算機語境（kernel）成立，
+#   但本書的「三大核心」是 core，不是 kernel。首次轉換後全書出現 335 個「内核」，
+#   連檔名都變成「07_三内核总览.md」。
+#   這正是 §6 說「机械转换不是翻译」的具體樣子：字全對，意思全錯。
+EXTRA = {
+    "牠": "它", "妳": "你", "祂": "它",
+    "内核": "核心",   # ← 見上方說明；本書無 kernel 語境，可安全全域還原
+}
 
 # 台灣制度專名：轉成简体字之後仍然是「台灣的制度」，需要人工在地化。
 LOCALE_TERMS = (
@@ -63,6 +77,44 @@ def src_files() -> list[str]:
     return files
 
 
+def convert_build_script() -> None:
+    """把 _build.py 一併簡體化成 cn/_build.py（系列標準 §6）。
+
+    【WHY 只轉字串常數與註解，不動程式碼】
+    OpenCC 會把中文一律轉換，包含 `title_for()` 裡的在地化 regex——
+    而那些 regex 要比對的是**简体書稿**裡的「第N章」「附录」，所以確實該轉。
+    但 Python 的語法與識別字必須原封不動，因此這裡逐行處理：
+    只轉「非 ASCII 的段落」，ASCII 部分（關鍵字、變數名）一個字都不碰。
+    """
+    src = os.path.join(BOOK, "_build.py")
+    text = open(src, encoding="utf-8").read()
+    # OpenCC 對 ASCII 不做任何事,所以整檔轉換是安全的——
+    # 它只會動到中文字元(字串常數、註解、docstring)。
+    cn_text = post(c.convert(text))
+    with open(os.path.join(OUT, "_build.py"), "w", encoding="utf-8") as w:
+        w.write(cn_text)
+    print("_build.py -> cn/_build.py")
+
+
+def copy_assets() -> None:
+    """封面與流程圖照抄（SVG 內的中文標題不轉——那會讓圖與简体正文不一致，
+    但轉了又會動到 SVG 結構。折衷：轉純文字節點的中文，其餘保持原樣）。"""
+    shutil.copy2(os.path.join(BOOK, "cover.svg"), os.path.join(OUT, "cover.svg"))
+    diagrams_out = os.path.join(OUT, "diagrams")
+    os.makedirs(diagrams_out, exist_ok=True)
+    n = 0
+    for svg in sorted(glob.glob(os.path.join(BOOK, "diagrams", "*.svg"))):
+        text = open(svg, encoding="utf-8").read()
+        # 只轉 >文字< 之間的內容,不碰標籤與屬性
+        cn_svg = re.sub(r">([^<>]*[一-鿿][^<>]*)<",
+                        lambda m: ">" + post(c.convert(m.group(1))) + "<", text)
+        with open(os.path.join(diagrams_out, os.path.basename(svg)), "w",
+                  encoding="utf-8") as w:
+            w.write(cn_svg)
+        n += 1
+    print("assets -> cn/cover.svg + cn/diagrams/(%d 張)" % n)
+
+
 def main() -> int:
     os.makedirs(OUT, exist_ok=True)
     hits: dict[str, int] = {}
@@ -80,6 +132,9 @@ def main() -> int:
             w.write(cn_text)
         print(base, "->", cn_base)
         count += 1
+
+    convert_build_script()
+    copy_assets()
 
     print("\nconverted %d files into %s" % (count, OUT))
     if hits:

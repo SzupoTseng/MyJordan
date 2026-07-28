@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">感觉调节四象限，与被忽略的第七个系统</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)">
+<rect x="60" y="108" width="240" height="120" rx="12" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/>
+<rect x="316" y="108" width="240" height="120" rx="12" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<rect x="60" y="244" width="240" height="120" rx="12" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+<rect x="316" y="244" width="240" height="120" rx="12" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2"/>
+</g>
+<text x="180" y="140" text-anchor="middle" font-size="17" font-weight="700" fill="#2f5d7a">低登录（被动·不足）</text>
+<text x="180" y="168" text-anchor="middle" font-size="13" fill="#1d2230">叫他没反应 · 痛不喊</text>
+<text x="180" y="192" text-anchor="middle" font-size="13" fill="#1d2230">脏了不知道</text>
+<text x="180" y="216" text-anchor="middle" font-size="12.5" fill="#2f5d7a">→ 加大信号、定时制约</text>
+
+<text x="436" y="140" text-anchor="middle" font-size="17" font-weight="700" fill="#9a6a1a">敏感（被动·过度）</text>
+<text x="436" y="168" text-anchor="middle" font-size="13" fill="#1d2230">容易被吵到 · 被碰就跳</text>
+<text x="436" y="192" text-anchor="middle" font-size="13" fill="#1d2230">容易分心</text>
+<text x="436" y="216" text-anchor="middle" font-size="12.5" fill="#9a6a1a">→ 降低背景，环境优先</text>
+
+<text x="180" y="276" text-anchor="middle" font-size="17" font-weight="700" fill="#2f8a5b">寻求（主动·不足）</text>
+<text x="180" y="304" text-anchor="middle" font-size="13" fill="#1d2230">一直动 · 撞 · 转圈</text>
+<text x="180" y="328" text-anchor="middle" font-size="13" fill="#1d2230">摸东西 · 发出声音</text>
+<text x="180" y="352" text-anchor="middle" font-size="12.5" fill="#2f8a5b">→ 给合法出口，不是禁止</text>
+
+<text x="436" y="276" text-anchor="middle" font-size="17" font-weight="700" fill="#9a3b2f">回避（主动·过度）</text>
+<text x="436" y="304" text-anchor="middle" font-size="13" fill="#1d2230">躲人群 · 摀耳朵</text>
+<text x="436" y="328" text-anchor="middle" font-size="13" fill="#1d2230">拒绝某些质地与场所</text>
+<text x="436" y="352" text-anchor="middle" font-size="12.5" fill="#9a3b2f">→ 预告与控制感</text>
+
+<text x="308" y="396" text-anchor="middle" font-size="13" fill="#5a6378">同一个人可以在不同信道落在不同象限——两者并存是常态，不是矛盾</text>
+
+<rect x="590" y="108" width="350" height="256" rx="14" fill="#14182a"/>
+<text x="765" y="142" text-anchor="middle" font-size="18" font-weight="700" fill="#f4b860">七个系统</text>
+<g font-size="14" fill="#e7ecf7">
+<text x="616" y="178">视觉 · 听觉 · 触觉 · 味嗅</text>
+<text x="616" y="208">前庭（头部位置与移动）</text>
+<text x="616" y="238">本体（肌肉与关节位置）</text>
+</g>
+<path d="M616 256 H914" stroke="#f4b860" opacity=".5"/>
+<text x="616" y="286" font-size="16" font-weight="700" fill="#f4b860">内感受 ★ 最少被谈的一格</text>
+<g font-size="13" fill="#e7ecf7">
+<text x="616" y="314">不知道自己饿、渴、想上厕所</text>
+<text x="616" y="340">不知道自己累了、快生气了</text>
+</g>
+
+<rect x="60" y="424" width="880" height="96" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="82" y="454" font-size="16" font-weight="700" fill="#2f5d7a">内感受把前面散落的线索接了起来</text>
+<g font-size="13" fill="#1d2230">
+<text x="82" y="482">第 5 章 不哭闹　·　第 11 章 便意迟钝　·　第 16 章 累到极限才爆发</text>
+<text x="82" y="506">第 39 章「突然」升级　·　第 44 章 腹胀两个月没人知道、第一次说「我头痛」</text>
+</g>
+
+<rect x="60" y="536" width="880" height="72" rx="12" fill="#fdf3e3" stroke="#e8c88a"/>
+<text x="82" y="564" font-size="15" font-weight="700" fill="#9a6a1a">证据等级要分开讲</text>
+<text x="82" y="590" font-size="13.5" fill="#1d2230">描述框架（找出哪一格失衡）临床效用高；以感统为名的疗程，疗效研究并不一致。用它理解与调环境，不要当疗程投资。</text>
+
+<text x="950" y="628" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

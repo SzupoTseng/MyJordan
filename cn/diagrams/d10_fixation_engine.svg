@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><marker id="紅箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#9a3b2f"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">固着功能化：三个动作，与两种用法的差别</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)"><rect x="60" y="110" width="230" height="150" rx="14" fill="#14182a"/></g>
+<text x="175" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#f4b860">动机引擎</text>
+<text x="175" y="182" text-anchor="middle" font-size="13.5" fill="#e7ecf7">动机极高</text>
+<text x="175" y="208" text-anchor="middle" font-size="13.5" fill="#e7ecf7">抗拒极低</text>
+<text x="175" y="234" text-anchor="middle" font-size="13.5" fill="#e7ecf7">内容稳定，可用四年</text>
+
+<path d="M292 185 L340 185" fill="none" stroke="#2f5d7a" stroke-width="3" marker-end="url(#箭頭)"/>
+
+<g filter="url(#陰影)"><rect x="345" y="110" width="188" height="150" rx="12" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/></g>
+<text x="439" y="146" text-anchor="middle" font-size="17" font-weight="700" fill="#2f5d7a">① 限时</text>
+<text x="439" y="176" text-anchor="middle" font-size="13" fill="#1d2230">3 张聊天券 × 5 分钟</text>
+<text x="439" y="202" text-anchor="middle" font-size="13" fill="#1d2230">代币放在看得见的地方</text>
+<text x="439" y="234" text-anchor="middle" font-size="12.5" fill="#5a6378">保护人缘、创建场合概念</text>
+
+<g filter="url(#陰影)"><rect x="548" y="110" width="188" height="150" rx="12" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/></g>
+<text x="642" y="146" text-anchor="middle" font-size="17" font-weight="700" fill="#9a6a1a">② 结构化</text>
+<text x="642" y="176" text-anchor="middle" font-size="13" fill="#1d2230">「你要介绍哪三个？」</text>
+<text x="642" y="202" text-anchor="middle" font-size="13" fill="#1d2230">第一 → 第二 → 收尾</text>
+<text x="642" y="234" text-anchor="middle" font-size="12.5" fill="#5a6378">碎念升级成有结构的叙述</text>
+
+<g filter="url(#陰影)"><rect x="751" y="110" width="189" height="150" rx="12" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/></g>
+<text x="845" y="146" text-anchor="middle" font-size="17" font-weight="700" fill="#2f8a5b">③ 外壳化</text>
+<text x="845" y="176" text-anchor="middle" font-size="13" fill="#1d2230">把要练的能力</text>
+<text x="845" y="202" text-anchor="middle" font-size="13" fill="#1d2230">包进火车主题里</text>
+<text x="845" y="234" text-anchor="middle" font-size="12.5" fill="#5a6378">降低抗拒、提高练习量</text>
+
+<rect x="60" y="300" width="430" height="200" rx="14" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2.5"/>
+<text x="275" y="334" text-anchor="middle" font-size="18" font-weight="700" fill="#2f8a5b">外壳式（建议：约八成）</text>
+<text x="84" y="368" font-size="14" fill="#1d2230">火车是「任务本身的材料」</text>
+<text x="84" y="398" font-size="13.5" fill="#5a6378">「自强号 400、区间车 150，哪张贵？」</text>
+<path d="M84 416 H466" stroke="#2f8a5b" opacity=".3"/>
+<text x="84" y="444" font-size="13.5" fill="#1d2230">孩子的体验：我在玩火车，顺便算数</text>
+<text x="84" y="472" font-size="13.5" fill="#2f8a5b">长期效果：学习本身变得可接受</text>
+
+<rect x="510" y="300" width="430" height="200" rx="14" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2"/>
+<text x="725" y="334" text-anchor="middle" font-size="18" font-weight="700" fill="#9a3b2f">酬赏式（谨慎：至多两成）</text>
+<text x="534" y="368" font-size="14" fill="#1d2230">做完不喜欢的事，「才给」火车</text>
+<text x="534" y="398" font-size="13.5" fill="#5a6378">「作业写完，才可以看火车视频」</text>
+<path d="M534 416 H916" stroke="#9a3b2f" opacity=".3"/>
+<text x="534" y="444" font-size="13.5" fill="#1d2230">孩子的体验：我在做讨厌的事来换火车</text>
+<text x="534" y="472" font-size="13.5" fill="#9a3b2f">长期效果：学习被标记为「讨厌的事」</text>
+
+<rect x="60" y="520" width="880" height="76" rx="12" fill="#14182a"/>
+<text x="500" y="552" text-anchor="middle" font-size="16" font-weight="700" fill="#f4b860">检查方法：如果拿掉奖励，他还会做吗？</text>
+<text x="500" y="580" text-anchor="middle" font-size="13.5" fill="#e7ecf7">这个问题也提前告诉你，这套训练在你不在场时还能不能运作——而在小作所里，你不会在场。</text>
+
+<text x="950" y="622" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

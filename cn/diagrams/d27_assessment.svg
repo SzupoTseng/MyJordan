@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f8a5b"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">职业实作评估：五个地雷，四个技巧</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)"><rect x="50" y="100" width="430" height="290" rx="14" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2.5"/></g>
+<text x="265" y="134" text-anchor="middle" font-size="19" font-weight="700" fill="#9a3b2f">五大扣分地雷</text>
+<text x="72" y="172" font-size="14" font-weight="700">① 中途停顿、眼神涣散</text>
+<text x="72" y="194" font-size="12.5" fill="#5a6378">扣「工作持续力」</text>
+<text x="72" y="224" font-size="14" font-weight="700">② 对象不对齐、随意摆放</text>
+<text x="72" y="246" font-size="12.5" fill="#5a6378">扣「操作良率」</text>
+<text x="72" y="276" font-size="14" font-weight="700">③ 指令没做完就起身</text>
+<text x="72" y="298" font-size="12.5" fill="#5a6378">扣「指令完整度」——完工信号提早释放</text>
+<text x="72" y="328" font-size="14" font-weight="700" fill="#9a3b2f">④ 被打断时跺脚、僵住　★ 影响最大</text>
+<text x="72" y="350" font-size="12.5" fill="#5a6378">扣「情绪控制」，可能被归为行为风险</text>
+<text x="72" y="376" font-size="14" font-weight="700">⑤ 工具没归位就离场</text>
+
+<g filter="url(#陰影)"><rect x="520" y="100" width="430" height="290" rx="14" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2.5"/></g>
+<text x="735" y="134" text-anchor="middle" font-size="19" font-weight="700" fill="#2f8a5b">四大应考技巧</text>
+<text x="542" y="172" font-size="14" font-weight="700">① 眼神对齐 ＋ 覆诵</text>
+<text x="542" y="194" font-size="12.5" fill="#5a6378">「好，蓝色篮子。」→ 破地雷 ①③</text>
+<text x="542" y="224" font-size="14" font-weight="700" fill="#2f8a5b">② 定格站姿 ＋ 制式台词　★ 最重要</text>
+<text x="542" y="246" font-size="12.5" fill="#5a6378">「请老师指导我，谢谢。」→ 破地雷 ①④</text>
+<text x="542" y="276" font-size="14" font-weight="700">③ 成品对齐 ＋ 主动回报</text>
+<text x="542" y="298" font-size="12.5" fill="#5a6378">「报告老师，我做好了，请检查。」→ 破 ②</text>
+<text x="542" y="328" font-size="14" font-weight="700">④ 工具 100% 归位才离场</text>
+<text x="542" y="350" font-size="12.5" fill="#5a6378">「谢谢老师，老师再见。」→ 破 ⑤</text>
+<text x="542" y="376" font-size="12.5" fill="#2f8a5b">委员最欣赏：会生气、但能用语言配合调度</text>
+
+<path d="M484 245 L516 245" fill="none" stroke="#2f8a5b" stroke-width="3" marker-end="url(#箭頭)"/>
+
+<rect x="50" y="415" width="430" height="175" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="72" y="447" font-size="16" font-weight="700" fill="#2f5d7a">为什么考拧抹布</text>
+<text x="72" y="477" font-size="13" fill="#1d2230">两手同时往「相反方向」转 —— 左右半球</text>
+<text x="72" y="499" font-size="13" fill="#1d2230">要同时发出相反却协调的指令。</text>
+<text x="72" y="527" font-size="13" fill="#9a3b2f">看的不是拧得干不干，是两手能不能各做各的。</text>
+<text x="72" y="558" font-size="13" fill="#5a6378">对接：餐饮、清洁、汽车美容的日常动作</text>
+
+<rect x="520" y="415" width="430" height="175" rx="12" fill="#fdf3e3" stroke="#e8c88a"/>
+<text x="542" y="447" font-size="16" font-weight="700" fill="#9a6a1a">为什么考拿剪刀</text>
+<text x="542" y="477" font-size="13" fill="#1d2230">同一只手上，一半在动、一半在稳定；</text>
+<text x="542" y="499" font-size="13" fill="#1d2230">另一只手还要同步转纸。</text>
+<text x="542" y="527" font-size="13" fill="#9a3b2f">剪刀精准度，预测未来手工代工的良率。</text>
+<text x="542" y="558" font-size="13" fill="#5a6378">对接：剪线头、裁包装、撕贴标签</text>
+
+<text x="950" y="622" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

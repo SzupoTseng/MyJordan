@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#9a3b2f"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">五块神经地基：训练失效时，由下往上排查</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)">
+<rect x="120" y="110" width="560" height="66" rx="10" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/>
+<rect x="120" y="186" width="560" height="66" rx="10" fill="#eef5f7" stroke="#bcd6df" stroke-width="2"/>
+<rect x="120" y="262" width="560" height="66" rx="10" fill="#eef5f7" stroke="#bcd6df" stroke-width="2"/>
+<rect x="120" y="338" width="560" height="66" rx="10" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/>
+<rect x="120" y="414" width="560" height="66" rx="10" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2.5"/>
+</g>
+<text x="146" y="152" font-size="17" font-weight="700" fill="#9a6a1a">⑤ 照顾者状态</text>
+<text x="400" y="152" font-size="13.5" fill="#5a6378">规则开始松动、记录中断、家庭冲突升高</text>
+<text x="146" y="228" font-size="17" font-weight="700" fill="#2f5d7a">④ 肠道与代谢</text>
+<text x="400" y="228" font-size="13.5" fill="#5a6378">腹胀、食欲差、坐不住、烦躁</text>
+<text x="146" y="304" font-size="17" font-weight="700" fill="#2f5d7a">③ 饮食与血糖</text>
+<text x="400" y="304" font-size="13.5" fill="#5a6378">下午时段特别差、体重异常变化</text>
+<text x="146" y="380" font-size="17" font-weight="700" fill="#2f8a5b">② 睡眠</text>
+<text x="400" y="380" font-size="13.5" fill="#5a6378">情绪回复时间拉长、专注断裂、易怒</text>
+<text x="146" y="456" font-size="17" font-weight="700" fill="#9a3b2f">① 放电与用药</text>
+<text x="400" y="456" font-size="13.5" fill="#5a6378">全面退步、学过的东西不见、异常嗜睡或暴躁</text>
+
+<path d="M90 470 L90 130" fill="none" stroke="#9a3b2f" stroke-width="3" marker-end="url(#箭頭)"/>
+<text x="72" y="500" font-size="13" fill="#9a3b2f">排查方向</text>
+
+<rect x="120" y="500" width="560" height="60" rx="10" fill="#14182a"/>
+<text x="400" y="537" text-anchor="middle" font-size="15" font-weight="700" fill="#f4b860">五块都查过，才轮到「方法、强度、动机」</text>
+
+<rect x="705" y="110" width="235" height="212" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="822" y="142" text-anchor="middle" font-size="16" font-weight="700" fill="#2f5d7a">回诊要讲的四段</text>
+<text x="725" y="176" font-size="13.5" fill="#1d2230">1. 发作纪录（型态／频率）</text>
+<text x="725" y="204" font-size="13.5" fill="#1d2230">2. 「像发作但不确定」的事件</text>
+<text x="725" y="232" font-size="13.5" fill="#9a3b2f">3. 认知与行为的变化 ★</text>
+<text x="725" y="260" font-size="13.5" fill="#1d2230">4. 疑似药物不良反应</text>
+<path d="M725 278 H920" stroke="#bcd6df"/>
+<text x="725" y="302" font-size="12.5" fill="#5a6378">退步迹象 → 问睡眠脑电图</text>
+
+<rect x="705" y="338" width="235" height="222" rx="12" fill="#faf0ee" stroke="#9a3b2f"/>
+<text x="822" y="370" text-anchor="middle" font-size="16" font-weight="700" fill="#9a3b2f">做对的事，用对的理由</text>
+<text x="725" y="402" font-size="13" fill="#1d2230">「便秘 → 血氨 → 癫痫」</text>
+<text x="725" y="426" font-size="13" fill="#1d2230">这条因果链并不成立。</text>
+<path d="M725 442 H920" stroke="#9a3b2f" opacity=".3"/>
+<text x="725" y="468" font-size="13" fill="#1d2230">该监测血氨的理由来自</text>
+<text x="725" y="492" font-size="13" fill="#9a3b2f">药物本身，不是来自便秘。</text>
+<text x="725" y="524" font-size="12.5" fill="#5a6378">用错的理由做对的事，</text>
+<text x="725" y="546" font-size="12.5" fill="#5a6378">下次会用同样的推理做错事。</text>
+
+<text x="950" y="622" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

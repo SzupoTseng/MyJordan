@@ -9,7 +9,7 @@
 from __future__ import annotations
 
 import datetime as _dt
-from dataclasses import dataclass, field, asdict
+from dataclasses import asdict, dataclass, field
 from typing import Any
 
 
@@ -61,7 +61,7 @@ class Profile:
         return asdict(self)
 
     @staticmethod
-    def from_dict(data: dict[str, Any]) -> "Profile":
+    def from_dict(data: dict[str, Any]) -> Profile:
         known = {f for f in Profile.__dataclass_fields__}
         unknown = set(data) - known
         _require(not unknown, f"未知欄位:{sorted(unknown)}")
@@ -116,7 +116,7 @@ class DailyRecord:
         return data
 
     @staticmethod
-    def from_dict(data: dict[str, Any]) -> "DailyRecord":
+    def from_dict(data: dict[str, Any]) -> DailyRecord:
         raw = dict(data)
         known = {f for f in DailyRecord.__dataclass_fields__}
         unknown = set(raw) - known

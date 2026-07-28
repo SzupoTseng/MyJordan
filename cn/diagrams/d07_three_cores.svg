@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">三大核心：燃料、煞车、载重</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)"><rect x="60" y="120" width="270" height="180" rx="14" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2.5"/></g>
+<text x="195" y="158" text-anchor="middle" font-size="20" font-weight="700" fill="#2f8a5b">C3　固着功能化</text>
+<text x="195" y="188" text-anchor="middle" font-size="15" fill="#1d2230">＝ 燃料</text>
+<text x="195" y="220" text-anchor="middle" font-size="13.5" fill="#5a6378">最爱的事变成本事</text>
+<text x="195" y="245" text-anchor="middle" font-size="13.5" fill="#5a6378">没有它，什么都推不动</text>
+<text x="195" y="277" text-anchor="middle" font-size="13" fill="#2f8a5b">限时 · 结构化 · 外壳化</text>
+
+<g filter="url(#陰影)"><rect x="365" y="120" width="270" height="180" rx="14" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2.5"/></g>
+<text x="500" y="158" text-anchor="middle" font-size="20" font-weight="700" fill="#2f5d7a">C1　神经控制力</text>
+<text x="500" y="188" text-anchor="middle" font-size="15" fill="#1d2230">＝ 煞车与方向盘</text>
+<text x="500" y="220" text-anchor="middle" font-size="13.5" fill="#5a6378">把生气换成「等一下」</text>
+<text x="500" y="245" text-anchor="middle" font-size="13.5" fill="#5a6378">没有它，学什么都漏掉</text>
+<text x="500" y="277" text-anchor="middle" font-size="13" fill="#2f5d7a">视觉提示 · 不进入口语角力</text>
+
+<g filter="url(#陰影)"><rect x="670" y="120" width="270" height="180" rx="14" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2.5"/></g>
+<text x="805" y="158" text-anchor="middle" font-size="20" font-weight="700" fill="#9a6a1a">C2　工作记忆链</text>
+<text x="805" y="188" text-anchor="middle" font-size="15" fill="#1d2230">＝ 载重量</text>
+<text x="805" y="220" text-anchor="middle" font-size="13.5" fill="#5a6378">一句话装得下两件事</text>
+<text x="805" y="245" text-anchor="middle" font-size="13.5" fill="#5a6378">没有它，永远要人在旁边</text>
+<text x="805" y="277" text-anchor="middle" font-size="13" fill="#9a6a1a">步数 · 空间 · 连接词 · 语序</text>
+
+<path d="M330 210 L363 210" fill="none" stroke="#2f5d7a" stroke-width="3" marker-end="url(#箭頭)"/>
+<path d="M635 210 L668 210" fill="none" stroke="#2f5d7a" stroke-width="3" marker-end="url(#箭頭)"/>
+
+<rect x="60" y="340" width="880" height="118" rx="12" fill="#14182a"/>
+<text x="500" y="378" text-anchor="middle" font-size="17" font-weight="700" fill="#f4b860">卡住的地方，决定这学期的主战场</text>
+<text x="90" y="412" font-size="14" fill="#e7ecf7">不愿意做 → 问题在 C3，把任务重新包进固着兴趣（第 10 章）</text>
+<text x="90" y="438" font-size="14" fill="#e7ecf7">愿意做但坐不住 → 问题在 C1，缩短时长、加视觉计时器（第 8 章）；<tspan fill="#f4b860">此时不可加难度</tspan></text>
+
+<rect x="60" y="480" width="430" height="105" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="82" y="510" font-size="15" font-weight="700" fill="#2f5d7a">每个活动只能标一个主要核心</text>
+<text x="82" y="537" font-size="13.5" fill="#1d2230">标不出来的活动，这个阶段就不做。</text>
+<text x="82" y="561" font-size="13.5" fill="#1d2230">本章真正的产出是「删掉」，不是「添加」。</text>
+
+<rect x="510" y="480" width="430" height="105" rx="12" fill="#fdf3e3" stroke="#e8c88a"/>
+<text x="532" y="510" font-size="15" font-weight="700" fill="#9a6a1a">宁可少，不要断</text>
+<text x="532" y="537" font-size="13.5" fill="#1d2230">平日每天总时长不超过 45 分钟。</text>
+<text x="532" y="561" font-size="13.5" fill="#1d2230">能持续两年的量，才是有效的量。</text>
+
+<text x="950" y="620" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

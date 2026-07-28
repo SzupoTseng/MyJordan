@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><marker id="紅箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#9a3b2f"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#14182a" flood-opacity=".13"/></filter></defs>
+<rect width="1000" height="640" fill="#fbf8f0"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#1d2230">
+<text x="50" y="55" font-size="28" font-weight="700">鉴别诊断漏斗：越上层，漏掉的代价越大</text>
+<path d="M50 72 H950" stroke="#f4b860" stroke-width="3"/>
+
+<g filter="url(#陰影)"><path d="M60 110 H620 L580 180 H100 Z" fill="#eef7f0" stroke="#2f8a5b" stroke-width="2"/></g>
+<text x="340" y="140" text-anchor="middle" font-size="17" font-weight="700" fill="#2f8a5b">第 0 层　排除可逆因素</text>
+<text x="340" y="165" text-anchor="middle" font-size="13" fill="#5a6378">听力损失 · 中耳积水 · 环境刺激 · 口腔结构</text>
+
+<g filter="url(#陰影)"><path d="M100 195 H580 L545 265 H135 Z" fill="#eef5f7" stroke="#2f5d7a" stroke-width="2"/></g>
+<text x="340" y="225" text-anchor="middle" font-size="17" font-weight="700" fill="#2f5d7a">第 1 层　落后的范围</text>
+<text x="340" y="250" text-anchor="middle" font-size="13" fill="#5a6378">单纯语言（DLD）？还是全面性发育迟缓？</text>
+
+<g filter="url(#陰影)"><path d="M135 280 H545 L512 350 H168 Z" fill="#fdf3e3" stroke="#e8c88a" stroke-width="2"/></g>
+<text x="340" y="310" text-anchor="middle" font-size="17" font-weight="700" fill="#9a6a1a">第 2 层　症候群性与否</text>
+<text x="340" y="335" text-anchor="middle" font-size="13" fill="#5a6378">外观正常 → X 连锁 · 突触／信道 · 代谢 · 自闭特质</text>
+
+<g filter="url(#陰影)"><path d="M168 365 H512 L480 440 H200 Z" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2.5"/></g>
+<text x="340" y="396" text-anchor="middle" font-size="17" font-weight="700" fill="#9a3b2f">第 3 层　癫痫是结果还是凶手</text>
+<text x="340" y="421" text-anchor="middle" font-size="13" fill="#5a6378">DEE · 癫痫-失语谱系（夜间放电）· 代谢晚发型</text>
+
+<path d="M340 445 L340 478" fill="none" stroke="#2f5d7a" stroke-width="3" marker-end="url(#箭頭)"/>
+<rect x="150" y="485" width="380" height="60" rx="10" fill="#14182a"/>
+<text x="340" y="512" text-anchor="middle" font-size="15" font-weight="700" fill="#f4b860">配置检查：睡眠脑电图 · MRI · CMA／FMR1／WES · 代谢筛检</text>
+<text x="340" y="534" text-anchor="middle" font-size="12.5" fill="#aeb6d4">每一项检查都应该对应到上面某一层的问题</text>
+
+<rect x="655" y="110" width="295" height="330" rx="14" fill="#faf0ee" stroke="#9a3b2f" stroke-width="2"/>
+<text x="802" y="142" text-anchor="middle" font-size="16" font-weight="700" fill="#9a3b2f">红旗：当天就医</text>
+<text x="675" y="176" font-size="13.5" fill="#1d2230">★ 技能倒退（原本会的不见了）</text>
+<text x="675" y="204" font-size="13.5" fill="#1d2230">　 发作型态改变或频率增加</text>
+<text x="675" y="232" font-size="13.5" fill="#1d2230">　 单次发作超过 5 分钟 → 叫救护车</text>
+<text x="675" y="260" font-size="13.5" fill="#1d2230">　 白天异常嗜睡、叫不太醒</text>
+<text x="675" y="288" font-size="13.5" fill="#1d2230">　 情绪剧变且找不到环境原因</text>
+<text x="675" y="316" font-size="13.5" fill="#1d2230">　 新出现的步态不稳、手抖</text>
+<text x="675" y="344" font-size="13.5" fill="#1d2230">　 皮肤红疹、黏膜溃疡、异常瘀青</text>
+<path d="M675 366 H930" stroke="#9a3b2f" opacity=".35"/>
+<text x="675" y="394" font-size="13" fill="#9a3b2f">倒退是神经信号，</text>
+<text x="675" y="418" font-size="13" fill="#9a3b2f">直到被证明不是为止。</text>
+
+<rect x="655" y="465" width="295" height="80" rx="12" fill="#eef5f7" stroke="#bcd6df"/>
+<text x="675" y="493" font-size="13.5" font-weight="700" fill="#2f5d7a">最常被跳过的一层是第 0 层</text>
+<text x="675" y="518" font-size="13" fill="#1d2230">外观正常的孩子，大人会直接</text>
+<text x="675" y="538" font-size="13" fill="#1d2230">往「大脑问题」跳。</text>
+
+<text x="950" y="620" text-anchor="end" font-size="11" fill="#5a6378">慢车到站 · The Slow Train Arrives</text></g></svg>

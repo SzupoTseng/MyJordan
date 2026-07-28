@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1130">
+<defs><marker id="箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2f5d7a"/></marker><marker id="金箭頭" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#f4b860"/></marker><filter id="陰影" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000" flood-opacity=".35"/></filter><filter id="光暈" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter></defs>
+<rect width="800" height="1130" fill="#14182a"/>
+<g font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#fbf8f0">
+<path d="M50 72 H750" stroke="#f4b860" stroke-width="3"/>
+<circle cx="400" cy="430" r="250" fill="#f4b860" opacity=".07" filter="url(#光暈)"/>
+<text x="400" y="168" text-anchor="middle" font-size="76" font-weight="800" letter-spacing="10" fill="#f4b860">慢車到站</text>
+<text x="400" y="214" text-anchor="middle" font-size="24" letter-spacing="3" fill="#d8dfef">The Slow Train Arrives</text>
+<path d="M150 244 H650" stroke="#f4b860" opacity=".6"/>
+<text x="400" y="286" text-anchor="middle" font-size="19" fill="#9aa2b7">把固著變成技能 —— 從神經地基到成人職場的四年培育藍圖</text>
+
+<g filter="url(#陰影)"><rect x="60" y="322" width="215" height="104" rx="12" fill="#1c2239" stroke="#2f5d7a" stroke-width="2"/></g>
+<text x="167.5" y="358" text-anchor="middle" font-size="19" font-weight="700" fill="#fbf8f0">神經控制力</text>
+<text x="167.5" y="386" text-anchor="middle" font-size="14" fill="#9aa2b7">把生氣換成「等一下」</text>
+<g filter="url(#陰影)"><rect x="292" y="322" width="216" height="104" rx="12" fill="#1c2239" stroke="#f4b860" stroke-width="2"/></g>
+<text x="400" y="358" text-anchor="middle" font-size="19" font-weight="700" fill="#f4b860">工作記憶鏈</text>
+<text x="400" y="386" text-anchor="middle" font-size="14" fill="#9aa2b7">一句話裝得下兩件事</text>
+<g filter="url(#陰影)"><rect x="525" y="322" width="215" height="104" rx="12" fill="#1c2239" stroke="#2f8a5b" stroke-width="2"/></g>
+<text x="632.5" y="358" text-anchor="middle" font-size="19" font-weight="700" fill="#fbf8f0">固著功能化</text>
+<text x="632.5" y="386" text-anchor="middle" font-size="14" fill="#9aa2b7">最愛的事變成本事</text>
+
+<path d="M60 552 H700" stroke="#5a6378" stroke-width="4"/>
+<path d="M60 566 H700" stroke="#5a6378" stroke-width="4"/>
+<g stroke="#3a4260" stroke-width="3">
+<path d="M78 546 V572"/><path d="M158 546 V572"/><path d="M238 546 V572"/><path d="M318 546 V572"/><path d="M398 546 V572"/><path d="M478 546 V572"/><path d="M558 546 V572"/><path d="M638 546 V572"/>
+</g>
+<g filter="url(#陰影)">
+<rect x="62" y="474" width="98" height="70" rx="9" fill="#1c2239" stroke="#2f5d7a" stroke-width="2"/>
+<rect x="168" y="474" width="98" height="70" rx="9" fill="#1c2239" stroke="#2f5d7a" stroke-width="2"/>
+<rect x="274" y="474" width="98" height="70" rx="9" fill="#1c2239" stroke="#f4b860" stroke-width="2"/>
+<rect x="380" y="474" width="98" height="70" rx="9" fill="#1c2239" stroke="#f4b860" stroke-width="2"/>
+<rect x="486" y="474" width="98" height="70" rx="9" fill="#1c2239" stroke="#2f8a5b" stroke-width="2"/>
+<rect x="592" y="474" width="98" height="70" rx="9" fill="#1c2239" stroke="#2f8a5b" stroke-width="2"/>
+</g>
+<g font-size="15" text-anchor="middle" fill="#fbf8f0" font-weight="700">
+<text x="111" y="504">S1</text><text x="217" y="504">S2</text><text x="323" y="504">S3</text><text x="429" y="504">S4</text><text x="535" y="504">S5</text><text x="641" y="504">S6</text>
+</g>
+<g font-size="12.5" text-anchor="middle" fill="#9aa2b7">
+<text x="111" y="528">奠基</text><text x="217" y="528">轉化</text><text x="323" y="528">探索</text><text x="429" y="528">耐受</text><text x="535" y="528">實習</text><text x="641" y="528">轉銜</text>
+</g>
+<path d="M700 559 L742 559" fill="none" stroke="#f4b860" stroke-width="3" marker-end="url(#金箭頭)"/>
+<text x="722" y="600" text-anchor="middle" font-size="13" fill="#f4b860">上班</text>
+
+<rect x="92" y="660" width="616" height="215" rx="18" fill="#1c2239" stroke="#e8c88a" opacity=".96"/>
+<text x="400" y="730" text-anchor="middle" font-size="25" fill="#fbf8f0">不是把火車從他手裡拿走，</text>
+<text x="400" y="782" text-anchor="middle" font-size="25" fill="#fbf8f0">而是讓火車</text>
+<text x="400" y="832" text-anchor="middle" font-size="30" font-weight="700" fill="#f4b860">載他去上班。</text>
+
+<path d="M120 930 H680" stroke="#f4b860" opacity=".35"/>
+<text x="400" y="982" text-anchor="middle" font-size="18" fill="#d8dfef">一本寫給家長與特教工作者的四年建置書</text>
+<text x="400" y="1018" text-anchor="middle" font-size="15" fill="#9aa2b7">教育研究用途 · 不構成醫療建議</text>
+<text x="750" y="1108" text-anchor="end" font-size="11" fill="#9aa2b7">慢車到站 · The Slow Train Arrives</text></g></svg>

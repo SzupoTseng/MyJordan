@@ -90,8 +90,12 @@ def convert_build_script() -> None:
     text = open(src, encoding="utf-8").read()
     # OpenCC 對 ASCII 不做任何事,所以整檔轉換是安全的——
     # 它只會動到中文字元(字串常數、註解、docstring)。
+    # 【WHY newline="\n"】這支腳本多半在 Windows python 上跑(WSL 常常沒有 OpenCC),
+    # 而 Windows 的 open(..., "w") 預設會把 \n 寫成 \r\n。
+    # 結果是:每次重跑 cn/,整批 57 個檔案都會變成「有變更」——而內容其實一個字都沒動。
+    # 固定寫 LF,重跑才會是冪等的。
     cn_text = post(c.convert(text))
-    with open(os.path.join(OUT, "_build.py"), "w", encoding="utf-8") as w:
+    with open(os.path.join(OUT, "_build.py"), "w", encoding="utf-8", newline="\n") as w:
         w.write(cn_text)
     print("_build.py -> cn/_build.py")
 
@@ -109,7 +113,7 @@ def copy_assets() -> None:
         cn_svg = re.sub(r">([^<>]*[一-鿿][^<>]*)<",
                         lambda m: ">" + post(c.convert(m.group(1))) + "<", text)
         with open(os.path.join(diagrams_out, os.path.basename(svg)), "w",
-                  encoding="utf-8") as w:
+                  encoding="utf-8", newline="\n") as w:
             w.write(cn_svg)
         n += 1
     print("assets -> cn/cover.svg + cn/diagrams/(%d 張)" % n)
@@ -128,7 +132,7 @@ def main() -> int:
                 hits[term] = hits.get(term, 0) + n
         cn_text = post(c.convert(text))
         cn_base = post(c.convert(base))
-        with open(os.path.join(OUT, cn_base), "w", encoding="utf-8") as w:
+        with open(os.path.join(OUT, cn_base), "w", encoding="utf-8", newline="\n") as w:
             w.write(cn_text)
         print(base, "->", cn_base)
         count += 1
